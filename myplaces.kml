@@ -1,0 +1,2513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>default_my_places</name>
+	<open>1</open>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_shopping">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_shopping0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_shopping</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_shopping">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_info_circle">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_info_circle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_info_circle0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_police">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_police</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_police</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_truck">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_truck0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_truck">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_truck">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_truck1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_truck1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_truck0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_truck2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_truck</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_firedept">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_info_circle">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/info_circle.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_truck1">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_flag">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_firedept">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_firedept0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_firedept</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_firedept">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_firedept0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_truck0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_truck1">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_police">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/police.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_man">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_shopping0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_shopping</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_shopping0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_firedept0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_shopping0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_info_circle">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/info_circle.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_man">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_police">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/police.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_firedept0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_firedept2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_firedept0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_firedept1">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_truck1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_truck0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_truck0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_info_circle0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_info_circle0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_info_circle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_info_circle0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/info_circle.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_truck2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_truck</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_truck2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_truck2">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_info_circle0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/info_circle.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_shopping">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_firedept1">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_shopping0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_flag">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_firedept1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_firedept1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_firedept1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_truck2">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_firedept2">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_firedept2">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_man">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_man</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_man</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_firedept2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_firedept</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_firedept2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>My Places</name>
+		<open>1</open>
+		<LookAt>
+			<longitude>37.71663225242348</longitude>
+			<latitude>47.95614704873208</latitude>
+			<altitude>0</altitude>
+			<heading>0.1155238464964559</heading>
+			<tilt>0</tilt>
+			<range>22257.86341715612</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<Style>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<ItemIcon>
+					<state>open</state>
+					<href>:/mysavedplaces_open.png</href>
+				</ItemIcon>
+				<ItemIcon>
+					<state>closed</state>
+					<href>:/mysavedplaces_closed.png</href>
+				</ItemIcon>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Placemark id="default_starting_location">
+			<name>Starting Location</name>
+			<LookAt>
+				<longitude>37.835767085927</longitude>
+				<latitude>48.05787676975314</latitude>
+				<altitude>0</altitude>
+				<heading>-4.981925436404008e-010</heading>
+				<tilt>0</tilt>
+				<range>70645.38994354352</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Point>
+				<coordinates>37.835767085927,48.05787676975314,0</coordinates>
+			</Point>
+		</Placemark>
+		<Folder>
+			<name>Bases</name>
+			<open>1</open>
+			<Folder>
+				<name>Personnel</name>
+				<Placemark>
+					<name>Base (Potential)</name>
+					<LookAt>
+						<longitude>37.88719229810852</longitude>
+						<latitude>48.02094843159701</latitude>
+						<altitude>0</altitude>
+						<heading>0.3182068000643671</heading>
+						<tilt>0</tilt>
+						<range>550.4624370693126</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_man</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.88695910580693,48.02083212094478,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2014-06-19</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>37.90103631062806</longitude>
+						<latitude>48.07569550885898</latitude>
+						<altitude>0</altitude>
+						<heading>0.3039592135929368</heading>
+						<tilt>0</tilt>
+						<range>308.9259756688891</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_man</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.90103631062806,48.07569550885898,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<longitude>37.7762037929306</longitude>
+						<latitude>47.96807745613891</latitude>
+						<altitude>0</altitude>
+						<heading>0.2300641800698755</heading>
+						<tilt>0</tilt>
+						<range>435.3842612290712</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_man</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.77620379293061,47.9680774561389,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Vehicles</name>
+				<open>1</open>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-06-07</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>37.87410047035494</longitude>
+						<latitude>47.99989809910655</latitude>
+						<altitude>0</altitude>
+						<heading>0.1727037111679406</heading>
+						<tilt>0</tilt>
+						<range>277.2198411377449</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.87398932001462,47.99984746776823,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<description><![CDATA[<a href="http://wikimapia.org/#lang=uk&lat=48.025259&lon=37.806873&z=18&m=ys">http://wikimapia.org/#lang=uk&lat=48.025259&lon=37.806873&z=18&m=ys</a>]]></description>
+					<LookAt>
+						<gx:TimeStamp><when>2015-06-07</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>37.80834288082452</longitude>
+						<latitude>48.02524057296185</latitude>
+						<altitude>0</altitude>
+						<heading>0.0530574182221648</heading>
+						<tilt>0</tilt>
+						<range>690.5310628147073</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.80834288095402,48.02524057321256,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<description>Link to corroborating materials to be added</description>
+					<LookAt>
+						<longitude>37.71757653766402</longitude>
+						<latitude>48.01428345747664</latitude>
+						<altitude>0</altitude>
+						<heading>0.02758997252889165</heading>
+						<tilt>0</tilt>
+						<range>649.1670872101817</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.71757653766402,48.01428345747663,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<description><![CDATA[<a href="http://wikimapia.org/#lang=ru&lat=48.012147&lon=37.904463&z=18&m=ys">http://wikimapia.org/#lang=ru&lat=48.012147&lon=37.904463&z=18&m=ys</a>]]></description>
+					<LookAt>
+						<gx:TimeStamp><when>2015-06-14</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>37.90471029010755</longitude>
+						<latitude>48.01214692414786</latitude>
+						<altitude>0</altitude>
+						<heading>0.114786830463253</heading>
+						<tilt>0</tilt>
+						<range>786.0964778626372</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.90471028990389,48.01214692379986,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-06-11T15:06:43Z</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>37.93139452542972</longitude>
+						<latitude>47.96962401062313</latitude>
+						<altitude>0</altitude>
+						<heading>0.1162861307477025</heading>
+						<tilt>0</tilt>
+						<range>496.2787722026777</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.93139452495711,47.96962401073595,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-06-09</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>37.85616636629948</longitude>
+						<latitude>47.95817175116819</latitude>
+						<altitude>0</altitude>
+						<heading>0.05965752323147001</heading>
+						<tilt>0</tilt>
+						<range>527.3146967482745</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.85380005232757,47.95844359538938,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-04-13</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>37.87451886797256</longitude>
+						<latitude>47.10900680189437</latitude>
+						<altitude>0</altitude>
+						<heading>0.1873261432271856</heading>
+						<tilt>0</tilt>
+						<range>584.3281821462552</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.87451886797257,47.10900680189437,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-04-26</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>37.93523644909193</longitude>
+						<latitude>47.11258613716854</latitude>
+						<altitude>0</altitude>
+						<heading>0.2318127874564046</heading>
+						<tilt>0</tilt>
+						<range>591.0700599402148</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.93523644889976,47.11258613722747,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<description><![CDATA[<a href="http://wikimapia.org/#lang=uk&lat=47.109305&lon=38.052773&z=18&m=ys">http://wikimapia.org/#lang=uk&lat=47.109305&lon=38.052773&z=18&m=ys</a>]]></description>
+					<LookAt>
+						<longitude>38.05290242707964</longitude>
+						<latitude>47.10929687680272</latitude>
+						<altitude>0</altitude>
+						<heading>0.3238069381194366</heading>
+						<tilt>0</tilt>
+						<range>337.9150287562952</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.05290242707965,47.10929687680272,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-06-11</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>38.07712380102218</longitude>
+						<latitude>47.11743808236712</latitude>
+						<altitude>0</altitude>
+						<heading>0.3472998003883473</heading>
+						<tilt>0</tilt>
+						<range>255.8112209963429</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.07712380102218,47.11743808236712,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<description><![CDATA[<a href="http://wikimapia.org/#lang=uk&lat=48.014134&lon=37.746164&z=18&m=ys">http://wikimapia.org/#lang=uk&lat=48.014134&lon=37.746164&z=18&m=ys</a>]]></description>
+					<LookAt>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>37.74655553286553</longitude>
+						<latitude>48.01434392867453</latitude>
+						<altitude>0</altitude>
+						<heading>0.2100444324302507</heading>
+						<tilt>0</tilt>
+						<range>416.4660445822114</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.74655553286553,48.01434392867453,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-06-14</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>37.85810224038303</longitude>
+						<latitude>47.99696922457771</latitude>
+						<altitude>0</altitude>
+						<heading>0.1585858626134938</heading>
+						<tilt>0</tilt>
+						<range>225.9125253066212</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.85810224041887,47.99696922461371,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<description><![CDATA[<a href="http://wikimapia.org/#lang=uk&lat=48.001100&lon=37.859015&z=18&m=ys">http://wikimapia.org/#lang=uk&lat=48.001100&lon=37.859015&z=18&m=ys</a>]]></description>
+					<LookAt>
+						<longitude>37.85949048340813</longitude>
+						<latitude>48.00099149954902</latitude>
+						<altitude>0</altitude>
+						<heading>0.2956872427564869</heading>
+						<tilt>0</tilt>
+						<range>423.5345302257086</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.85921586953045,48.00080963641013,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<description><![CDATA[<a href="http://wikimapia.org/#lang=uk&lat=48.008218&lon=37.893643&z=18&m=yh">http://wikimapia.org/#lang=uk&lat=48.008218&lon=37.893643&z=18&m=yh</a>]]></description>
+					<LookAt>
+						<gx:TimeStamp><when>2015-06-11</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>37.89375076927959</longitude>
+						<latitude>48.00832828319934</latitude>
+						<altitude>0</altitude>
+						<heading>0.3220841432252571</heading>
+						<tilt>0</tilt>
+						<range>245.8982039057423</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.89375076937095,48.00832828319465,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-06-14</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>37.81696589968773</longitude>
+						<latitude>47.96274716923189</latitude>
+						<altitude>0</altitude>
+						<heading>0.1124580933215238</heading>
+						<tilt>0</tilt>
+						<range>575.5187300151647</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.81696589972834,47.96274716952643,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-06-07</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>37.86357909726189</longitude>
+						<latitude>47.99644997087942</latitude>
+						<altitude>0</altitude>
+						<heading>0.1644413363222265</heading>
+						<tilt>0</tilt>
+						<range>323.3789591074707</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.863579097375,47.99644997087602,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-04-13</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>37.75902982655602</longitude>
+						<latitude>47.95554812869526</latitude>
+						<altitude>0</altitude>
+						<heading>4.515012333851074e-005</heading>
+						<tilt>0</tilt>
+						<range>341.6369065756765</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.75902982652302,47.95554812875555,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<description><![CDATA[<a href="http://wikimapia.org/#lang=uk&lat=47.933439&lon=37.666921&z=18&m=ys">http://wikimapia.org/#lang=uk&lat=47.933439&lon=37.666921&z=18&m=ys</a>]]></description>
+					<LookAt>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>37.66753801169015</longitude>
+						<latitude>47.93316900632011</latitude>
+						<altitude>0</altitude>
+						<heading>0.02820624778637057</heading>
+						<tilt>0</tilt>
+						<range>385.0444461605862</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.66753801169014,47.93316900632011,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<description><![CDATA[<a href="http://wikimapia.org/#lang=uk&lat=47.932403&lon=37.670939&z=18&m=ys">http://wikimapia.org/#lang=uk&lat=47.932403&lon=37.670939&z=18&m=ys</a>]]></description>
+					<LookAt>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>37.67124915054155</longitude>
+						<latitude>47.93229853018782</latitude>
+						<altitude>0</altitude>
+						<heading>0.03096127128071882</heading>
+						<tilt>0</tilt>
+						<range>383.5169182540136</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.67124915054155,47.93229853018782,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-06-07</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>37.93660595507038</longitude>
+						<latitude>48.07572707152806</latitude>
+						<altitude>0</altitude>
+						<heading>0.3204068437766496</heading>
+						<tilt>0</tilt>
+						<range>564.0033550994609</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.93660595506677,48.07572707134411,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-06-07</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>37.85802849194026</longitude>
+						<latitude>48.0268050359616</latitude>
+						<altitude>0</altitude>
+						<heading>0.1704714847019842</heading>
+						<tilt>0</tilt>
+						<range>247.7350666789544</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.8580284919633,48.02680503604275,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-06-14</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>37.94326300248534</longitude>
+						<latitude>47.99655678756826</latitude>
+						<altitude>0</altitude>
+						<heading>0.2172830152591063</heading>
+						<tilt>0</tilt>
+						<range>364.6602769278397</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.94326300233936,47.99655678756091,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-06-11</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>38.10110890113636</longitude>
+						<latitude>47.87997594966016</latitude>
+						<altitude>0</altitude>
+						<heading>0.3208992100632072</heading>
+						<tilt>0</tilt>
+						<range>325.1616907965077</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.10110890111569,47.87997594960955,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-06-11</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>38.10317175552445</longitude>
+						<latitude>47.8795678197615</latitude>
+						<altitude>0</altitude>
+						<heading>0.3224293065664088</heading>
+						<tilt>0</tilt>
+						<range>319.4103115386872</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.10317175552444,47.8795678197615,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-03-25</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>38.19417501495516</longitude>
+						<latitude>47.91628327490513</latitude>
+						<altitude>0</altitude>
+						<heading>0.4388496664500953</heading>
+						<tilt>0</tilt>
+						<range>417.9091886229249</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.1941750148689,47.91628327488095,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-04-10</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>38.17176325162153</longitude>
+						<latitude>48.04312625423448</latitude>
+						<altitude>0</altitude>
+						<heading>0.4514674072284317</heading>
+						<tilt>0</tilt>
+						<range>472.8899259258351</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.17176325162153,48.04312625423449,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base (Training)</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-03-24</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>38.16965333020977</longitude>
+						<latitude>48.26311691852632</latitude>
+						<altitude>0</altitude>
+						<heading>0.4010788120591983</heading>
+						<tilt>0</tilt>
+						<range>354.1650702164658</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.1696533302252,48.26311691867623,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<description><![CDATA[<a href="http://wikimapia.org/#lang=uk&lat=48.330713&lon=38.404384&z=18&m=yh">http://wikimapia.org/#lang=uk&lat=48.330713&lon=38.404384&z=18&m=yh</a>]]></description>
+					<LookAt>
+						<gx:TimeStamp><when>2015-05-26</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>38.40438248531807</longitude>
+						<latitude>48.33055796793624</latitude>
+						<altitude>0</altitude>
+						<heading>0.1485217971586468</heading>
+						<tilt>0</tilt>
+						<range>520.5340933828952</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.40438248531807,48.33055796793624,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-05-26</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>38.38377930993536</longitude>
+						<latitude>48.33593309188652</latitude>
+						<altitude>0</altitude>
+						<heading>0.143318314917316</heading>
+						<tilt>0</tilt>
+						<range>413.4087261019094</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.38355646231069,48.33576726998125,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-06-07</when>
+</gx:TimeStamp>
+						<longitude>37.79470516183952</longitude>
+						<latitude>48.03714904969436</latitude>
+						<altitude>0</altitude>
+						<heading>0.008257708081266383</heading>
+						<tilt>0</tilt>
+						<range>523.9312182763518</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.79470516170628,48.03714904967217,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-06-07</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>37.80822470330467</longitude>
+						<latitude>48.02902553757775</latitude>
+						<altitude>0</altitude>
+						<heading>0.009949656107916939</heading>
+						<tilt>0</tilt>
+						<range>318.7473311705771</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.80819635938244,48.02883159603736,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>1 &amp; 5 SepMRBde 1 AC Training Area</name>
+					<description><![CDATA[<a href="http://wikimapia.org/#lang=uk&lat=47.871906&lon=38.122419&z=17">http://wikimapia.org/#lang=uk&lat=47.871906&lon=38.122419&z=17</a>]]></description>
+					<LookAt>
+						<gx:TimeStamp><when>2015-06-11</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>38.12519845055405</longitude>
+						<latitude>47.87148798817516</latitude>
+						<altitude>0</altitude>
+						<heading>0.5403299966066488</heading>
+						<tilt>0</tilt>
+						<range>930.3252181692707</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.12519845055405,47.87148798817516,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>3 SepMRBde 1 AC Training Area</name>
+					<description><![CDATA[<a href="http://wikimapia.org/#lang=ru&lat=48.251919&lon=38.131303&z=14&m=ys">http://wikimapia.org/#lang=ru&lat=48.251919&lon=38.131303&z=14&m=ys</a>]]></description>
+					<LookAt>
+						<longitude>38.13266188549454</longitude>
+						<latitude>48.25379332913189</latitude>
+						<altitude>0</altitude>
+						<heading>0.3788993426283853</heading>
+						<tilt>0</tilt>
+						<range>2070.534394171168</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.13266188549454,48.25379332913189,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>1 AC Armor &amp; Recce Training Area</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-06-07</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>38.60727034578856</longitude>
+						<latitude>47.99109470720107</latitude>
+						<altitude>0</altitude>
+						<heading>0.001576890674851456</heading>
+						<tilt>0</tilt>
+						<range>2644.263267081669</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.61024673907667,47.98844410040396,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>1 SepMRBde 1 AC Training Area</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-06-14</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>38.0184583601275</longitude>
+						<latitude>47.5233890933345</latitude>
+						<altitude>0</altitude>
+						<heading>1.1999692118866e-009</heading>
+						<tilt>0</tilt>
+						<range>3284.014432438728</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.0184583601275,47.52338909333449,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-05-21</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>37.75626657114421</longitude>
+						<latitude>48.03066586478366</latitude>
+						<altitude>0</altitude>
+						<heading>-0.03648644447717063</heading>
+						<tilt>0</tilt>
+						<range>574.5518553176319</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.75634339298124,48.03051491417516,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-05-21</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>37.77852060694283</longitude>
+						<latitude>48.03143986045021</latitude>
+						<altitude>0</altitude>
+						<heading>-0.02409431432943359</heading>
+						<tilt>0</tilt>
+						<range>412.3852681189858</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.77852060694283,48.03143986045021,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>Firing Positions</name>
+			<Placemark>
+				<name>Firing Position</name>
+				<description><![CDATA[<a href="http://wikimapia.org/#lang=uk&lat=48.089776&lon=37.934412&z=18&m=ys">http://wikimapia.org/#lang=uk&lat=48.089776&lon=37.934412&z=18&m=ys</a>]]></description>
+				<LookAt>
+					<longitude>37.93767914147809</longitude>
+					<latitude>48.08971053737893</latitude>
+					<altitude>0</altitude>
+					<heading>0.08101276073605709</heading>
+					<tilt>0</tilt>
+					<range>2517.019336584186</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_firedept</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.93767914147809,48.08971053737893,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Firing Position</name>
+				<description><![CDATA[<a href="https://twitter.com/osce_smm/status/738312598546944000">https://twitter.com/osce_smm/status/738312598546944000</a>]]></description>
+				<LookAt>
+					<longitude>37.85550597857021</longitude>
+					<latitude>48.10158617120121</latitude>
+					<altitude>0</altitude>
+					<heading>0.1090932183553682</heading>
+					<tilt>0</tilt>
+					<range>502.2228444394756</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_firedept</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.85550597857021,48.10158617120121,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Firing Position</name>
+				<LookAt>
+					<gx:TimeStamp><when>2015-06-09</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>37.66868556442137</longitude>
+					<latitude>47.96634427109237</latitude>
+					<altitude>0</altitude>
+					<heading>0.03587300350330653</heading>
+					<tilt>0</tilt>
+					<range>593.2219954574979</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_firedept</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.66868556442136,47.96634427109237,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Firing Position</name>
+				<description><![CDATA[<a href="http://wikimapia.org/#lang=uk&lat=48.315756&lon=38.241777&z=17&m=ys">http://wikimapia.org/#lang=uk&lat=48.315756&lon=38.241777&z=17&m=ys</a>]]></description>
+				<LookAt>
+					<longitude>38.24178767173374</longitude>
+					<latitude>48.31570461835775</latitude>
+					<altitude>0</altitude>
+					<heading>0.3345672596851311</heading>
+					<tilt>6.603672671577465</tilt>
+					<range>599.3310442361699</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_firedept0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>38.24178767173374,48.31570461835774,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Firing Position</name>
+				<description><![CDATA[<a href="http://wikimapia.org/#lang=uk&lat=48.319795&lon=38.235233&z=17&m=ys">http://wikimapia.org/#lang=uk&lat=48.319795&lon=38.235233&z=17&m=ys</a>]]></description>
+				<LookAt>
+					<longitude>38.23501858752163</longitude>
+					<latitude>48.32018153959956</latitude>
+					<altitude>0</altitude>
+					<heading>-0.001959096371759153</heading>
+					<tilt>0</tilt>
+					<range>884.9256774134249</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_firedept0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>38.23526941705347,48.3191239323483,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Firing Position</name>
+				<description><![CDATA[<a href="http://www.terraserver.com/preview/287bb3cbdd001a35f8f2b4d82dddef17?bbox=37.9022204875946,48.08495271202862,37.90608286857605,48.08688780962866&latitude=48.0859220617&longitude=37.9041489959&image_area=61872.131391999785%20&horizontal_distance=287.22417561443154%20&vertical_distance=215.4140794716969">http://www.terraserver.com/preview/287bb3cbdd001a35f8f2b4d82dddef17?bbox=37.9022204875946,48.08495271202862,37.90608286857605,48.08688780962866&latitude=48.0859220617&longitude=37.9041489959&image_area=61872.131391999785%20&horizontal_distance=287.22417561443154%20&vertical_distance=215.4140794716969</a>]]></description>
+				<LookAt>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>37.90369731472971</longitude>
+					<latitude>48.08635098883443</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002713658198892183</heading>
+					<tilt>0</tilt>
+					<range>527.8236232505193</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_firedept1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.90369731472971,48.08635098883444,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Firing Position</name>
+				<description><![CDATA[<a href="https://www.youtube.com/watch?v=c0_Cxnre-Bs">https://www.youtube.com/watch?v=c0_Cxnre-Bs</a>]]></description>
+				<LookAt>
+					<gx:TimeStamp><when>2015-06-07</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>37.79568094812449</longitude>
+					<latitude>48.08428273121331</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0312976794338265</heading>
+					<tilt>0</tilt>
+					<range>261.6886189944314</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_firedept2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.79529101927176,48.084216812763,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Fortifications</name>
+			<Placemark>
+				<name>Dug-In Positions</name>
+				<description><![CDATA[<a href="http://wikimapia.org/#lang=uk&lat=47.955204&lon=37.638881&z=18&m=ys">http://wikimapia.org/#lang=uk&lat=47.955204&lon=37.638881&z=18&m=ys</a>]]></description>
+				<LookAt>
+					<longitude>37.63870858584557</longitude>
+					<latitude>47.95515105105332</latitude>
+					<altitude>0</altitude>
+					<heading>0.01140008955896818</heading>
+					<tilt>0</tilt>
+					<range>588.0957938728998</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.63870858584557,47.95515105105332,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Dug-In Positions</name>
+				<description><![CDATA[<a href="http://wikimapia.org/#lang=uk&lat=47.971565&lon=37.658815&z=18&m=ys">http://wikimapia.org/#lang=uk&lat=47.971565&lon=37.658815&z=18&m=ys</a>]]></description>
+				<LookAt>
+					<longitude>37.65987676289038</longitude>
+					<latitude>47.97163837826861</latitude>
+					<altitude>0</altitude>
+					<heading>0.02926109259306129</heading>
+					<tilt>0</tilt>
+					<range>526.3627694922659</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.65987676289038,47.97163837826861,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Dug-In Positions</name>
+				<description><![CDATA[<a href="http://wikimapia.org/#lang=uk&lat=47.975412&lon=37.674581&z=18&m=ys">http://wikimapia.org/#lang=uk&lat=47.975412&lon=37.674581&z=18&m=ys</a>]]></description>
+				<LookAt>
+					<longitude>37.67481561046502</longitude>
+					<latitude>47.97560079102497</latitude>
+					<altitude>0</altitude>
+					<heading>0.04035765513478671</heading>
+					<tilt>0</tilt>
+					<range>1040.049102520504</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.67481561046501,47.97560079102497,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Dug-In Positions</name>
+				<description>http://wikimapia.org/#lang=uk&amp;lat=47.977010&amp;lon=37.642990&amp;z=18&amp;m=ys</description>
+				<LookAt>
+					<longitude>37.64301434112795</longitude>
+					<latitude>47.97673430440639</latitude>
+					<altitude>0</altitude>
+					<heading>0.01719254046097169</heading>
+					<tilt>0</tilt>
+					<range>318.3876972383355</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.64301434112795,47.97673430440639,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Dug-In Positions</name>
+				<description><![CDATA[<a href="http://wikimapia.org/#lang=uk&lat=48.003835&lon=37.633967&z=18&m=ys">http://wikimapia.org/#lang=uk&lat=48.003835&lon=37.633967&z=18&m=ys</a>]]></description>
+				<LookAt>
+					<longitude>37.633561085355</longitude>
+					<latitude>48.00385049356988</latitude>
+					<altitude>0</altitude>
+					<heading>-0.09761329700702613</heading>
+					<tilt>0</tilt>
+					<range>597.4935764019735</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.633561085355,48.00385049356988,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Trenches</name>
+				<LookAt>
+					<longitude>37.63309081391971</longitude>
+					<latitude>48.00786321456585</latitude>
+					<altitude>0</altitude>
+					<heading>0.1573454780247768</heading>
+					<tilt>0</tilt>
+					<range>352.611447719514</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.6330908139197,48.00786321456585,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Dug-In Positions</name>
+				<LookAt>
+					<longitude>37.74559470439026</longitude>
+					<latitude>47.98538147009917</latitude>
+					<altitude>0</altitude>
+					<heading>0.1339432864632495</heading>
+					<tilt>0</tilt>
+					<range>476.660209282799</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.74559470439026,47.98538147009917,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Dug-In Positions</name>
+				<LookAt>
+					<longitude>37.73586094938377</longitude>
+					<latitude>47.98658899053658</latitude>
+					<altitude>0</altitude>
+					<heading>0.1273093985782312</heading>
+					<tilt>0</tilt>
+					<range>213.3218772142955</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.73586094938377,47.98658899053658,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Dug-In Positions</name>
+				<LookAt>
+					<longitude>37.74318673722821</longitude>
+					<latitude>47.98179135367725</latitude>
+					<altitude>0</altitude>
+					<heading>0.1331589192183345</heading>
+					<tilt>0</tilt>
+					<range>202.0401801099958</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.7431867372282,47.98179135367725,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Trenches</name>
+				<LookAt>
+					<longitude>37.5953496554845</longitude>
+					<latitude>48.01114553149783</latitude>
+					<altitude>0</altitude>
+					<heading>0.1292421728677442</heading>
+					<tilt>0</tilt>
+					<range>648.3815518223981</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.5953496554845,48.01114553149783,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Trenches</name>
+				<LookAt>
+					<longitude>37.58898875624094</longitude>
+					<latitude>48.01117329441808</latitude>
+					<altitude>0</altitude>
+					<heading>0.1244995434926213</heading>
+					<tilt>0</tilt>
+					<range>451.7411459324968</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.58898875624094,48.01117329441808,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Trenches</name>
+				<LookAt>
+					<longitude>37.88547056510971</longitude>
+					<latitude>48.00729420444634</latitude>
+					<altitude>0</altitude>
+					<heading>-0.01075242660491231</heading>
+					<tilt>0</tilt>
+					<range>278.8259042329389</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.88547056510971,48.00729420444634,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Trenches</name>
+				<description><![CDATA[<a href="http://wikimapia.org/#lang=uk&lat=48.109380&lon=37.857712&z=18&m=ys">http://wikimapia.org/#lang=uk&lat=48.109380&lon=37.857712&z=18&m=ys</a>]]></description>
+				<LookAt>
+					<longitude>37.85772667106691</longitude>
+					<latitude>48.10933886553204</latitude>
+					<altitude>0</altitude>
+					<heading>0.1107463860428438</heading>
+					<tilt>0</tilt>
+					<range>490.9272032114417</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.85772667106691,48.10933886553204,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Trenches</name>
+				<LookAt>
+					<longitude>37.83860972824332</longitude>
+					<latitude>47.10756676513972</latitude>
+					<altitude>0</altitude>
+					<heading>0.1610176037171388</heading>
+					<tilt>0</tilt>
+					<range>557.8433985910438</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.83860972824332,47.10756676513972,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Trenches</name>
+				<LookAt>
+					<longitude>37.84840191323806</longitude>
+					<latitude>47.10843662786183</latitude>
+					<altitude>0</altitude>
+					<heading>0.168191675512817</heading>
+					<tilt>0</tilt>
+					<range>550.8355921606785</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.84840191323806,47.10843662786183,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Trenches</name>
+				<LookAt>
+					<longitude>37.85230035634015</longitude>
+					<latitude>47.10848380201619</latitude>
+					<altitude>0</altitude>
+					<heading>0.1710478108684066</heading>
+					<tilt>0</tilt>
+					<range>555.4778953228873</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.85230035634015,47.10848380201619,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Trenches</name>
+				<LookAt>
+					<longitude>37.85287863521927</longitude>
+					<latitude>47.12118297373095</latitude>
+					<altitude>0</altitude>
+					<heading>0.171577012364897</heading>
+					<tilt>0</tilt>
+					<range>672.9066366220942</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.85287863521928,47.12118297373095,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Trenches</name>
+				<LookAt>
+					<longitude>38.02951667341161</longitude>
+					<latitude>47.10572292490123</latitude>
+					<altitude>0</altitude>
+					<heading>0.3052776593155919</heading>
+					<tilt>0</tilt>
+					<range>651.1730509549328</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>38.02951667341161,47.10572292490124,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Trenches</name>
+				<LookAt>
+					<longitude>38.03933218272809</longitude>
+					<latitude>47.11073208782668</latitude>
+					<altitude>0</altitude>
+					<heading>0.3127593667456728</heading>
+					<tilt>0</tilt>
+					<range>193.2546099674284</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>38.03933218272809,47.11073208782668,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Trenches</name>
+				<LookAt>
+					<gx:TimeStamp><when>2014-09-03</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>37.9023066428474</longitude>
+					<latitude>48.07545380558653</latitude>
+					<altitude>0</altitude>
+					<heading>0.3049043758538362</heading>
+					<tilt>0</tilt>
+					<range>311.2091422781389</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.90204269786452,48.07555472623708,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Trenches</name>
+				<LookAt>
+					<longitude>38.07130454323207</longitude>
+					<latitude>47.94063105656027</latitude>
+					<altitude>0</altitude>
+					<heading>0.2492298696017598</heading>
+					<tilt>0</tilt>
+					<range>1372.935440565032</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>38.07130454323206,47.94063105656027,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Trenches</name>
+				<LookAt>
+					<longitude>37.96617984821868</longitude>
+					<latitude>47.86055541692959</latitude>
+					<altitude>0</altitude>
+					<heading>0.1812523400095968</heading>
+					<tilt>0</tilt>
+					<range>396.698456300417</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.96617984821868,47.86055541692959,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Trenches</name>
+				<LookAt>
+					<longitude>38.01527083833712</longitude>
+					<latitude>47.86002905544741</latitude>
+					<altitude>0</altitude>
+					<heading>0.2465630956657783</heading>
+					<tilt>0</tilt>
+					<range>436.9604323577328</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>38.01527083833712,47.86002905544741,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Trenches</name>
+				<LookAt>
+					<longitude>38.08560080277723</longitude>
+					<latitude>47.88662572720421</latitude>
+					<altitude>0</altitude>
+					<heading>0.3157337955279509</heading>
+					<tilt>0</tilt>
+					<range>301.4853087590304</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>38.08560080277723,47.88662572720421,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Trenches</name>
+				<LookAt>
+					<longitude>38.14118891714391</longitude>
+					<latitude>47.90275194418211</latitude>
+					<altitude>0</altitude>
+					<heading>0.3849729613804718</heading>
+					<tilt>0</tilt>
+					<range>251.4686274561398</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>38.14102446437821,47.90269649863431,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Trenches</name>
+				<LookAt>
+					<longitude>38.1954180727972</longitude>
+					<latitude>47.9125570055912</latitude>
+					<altitude>0</altitude>
+					<heading>0.4397721460233138</heading>
+					<tilt>0</tilt>
+					<range>415.0595840057305</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>38.1958417837604,47.91255688291193,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Dug-In Positions</name>
+				<LookAt>
+					<gx:TimeStamp><when>2015-03-24</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>38.31939186380074</longitude>
+					<latitude>48.33169141236022</latitude>
+					<altitude>0</altitude>
+					<heading>0.05720578259538316</heading>
+					<tilt>0</tilt>
+					<range>504.0041734461988</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>38.31939186380075,48.33169141236022,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Trenches</name>
+				<description><![CDATA[<a href="http://wikimapia.org/#lang=uk&lat=48.359172&lon=38.363636&z=17&m=ys">http://wikimapia.org/#lang=uk&lat=48.359172&lon=38.363636&z=17&m=ys</a>
+
+Older looking dug-in positions appear to be Ukrainian]]></description>
+				<LookAt>
+					<longitude>38.36283234675322</longitude>
+					<latitude>48.35916786495704</latitude>
+					<altitude>0</altitude>
+					<heading>0.1056568629283795</heading>
+					<tilt>0</tilt>
+					<range>360.1498338636588</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>38.36283234675322,48.35916786495705,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Trenches</name>
+				<LookAt>
+					<gx:TimeStamp><when>2015-06-07</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>37.79534716746345</longitude>
+					<latitude>48.08378940073764</latitude>
+					<altitude>0</altitude>
+					<heading>-0.03154605348156265</heading>
+					<tilt>0</tilt>
+					<range>259.9960514586227</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.79534716746346,48.08378940073764,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Logistics, Command, Training</name>
+			<Placemark>
+				<name>Base (Potential)</name>
+				<LookAt>
+					<gx:TimeStamp><when>2015-03-11</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>37.94415673428055</longitude>
+					<latitude>48.0023181536608</latitude>
+					<altitude>0</altitude>
+					<heading>0.2177820293996377</heading>
+					<tilt>0</tilt>
+					<range>668.9580782615233</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_shopping</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.94415673428055,48.0023181536608,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Base (Training)</name>
+				<LookAt>
+					<longitude>37.80096841888982</longitude>
+					<latitude>48.01329501430244</latitude>
+					<altitude>0</altitude>
+					<heading>0.146821775334445</heading>
+					<tilt>0</tilt>
+					<range>296.6005838635168</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_police</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.80096841888982,48.01329501430244,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Base (Potential)</name>
+				<description><![CDATA[<a href="http://wikimapia.org/#lang=uk&lat=48.047146&lon=37.906480&z=18&m=ys">http://wikimapia.org/#lang=uk&lat=48.047146&lon=37.906480&z=18&m=ys</a>]]></description>
+				<LookAt>
+					<longitude>37.90631636865217</longitude>
+					<latitude>48.04722890631401</latitude>
+					<altitude>0</altitude>
+					<heading>0.3301472759114587</heading>
+					<tilt>0</tilt>
+					<range>529.4029637583185</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_shopping0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.90631636865216,48.04722890631401,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Base</name>
+				<LookAt>
+					<longitude>37.90411177468972</longitude>
+					<latitude>48.01391094837804</latitude>
+					<altitude>0</altitude>
+					<heading>0.1143419638672191</heading>
+					<tilt>0</tilt>
+					<range>783.2596841421984</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_shopping0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.90411177468972,48.01391094837805,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Base (Command)</name>
+				<LookAt>
+					<longitude>37.79622086925565</longitude>
+					<latitude>48.02993367882046</latitude>
+					<altitude>0</altitude>
+					<heading>-0.04405480379622263</heading>
+					<tilt>0</tilt>
+					<range>293.4972474395593</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_flag</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.7961602366952,48.02975492404416,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Other</name>
+			<Placemark>
+				<name>Strange</name>
+				<LookAt>
+					<gx:TimeStamp><when>2015-03-25</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>38.06611143427421</longitude>
+					<latitude>47.12781390614276</latitude>
+					<altitude>0</altitude>
+					<heading>0.3386880258669018</heading>
+					<tilt>0</tilt>
+					<range>422.538023327473</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_info_circle</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>38.06611143427421,47.12781390614276,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Srange Mast</name>
+				<LookAt>
+					<longitude>37.92527074343908</longitude>
+					<latitude>47.17072810693852</latitude>
+					<altitude>0</altitude>
+					<heading>0.2375224969806202</heading>
+					<tilt>0</tilt>
+					<range>928.1528122128608</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_info_circle</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.92527074343908,47.17072810693852,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>To be investigated</name>
+				<description><![CDATA[<a href="http://wikimapia.org/#lang=uk&lat=48.320676&lon=38.302352&z=17&m=ys">http://wikimapia.org/#lang=uk&lat=48.320676&lon=38.302352&z=17&m=ys</a>]]></description>
+				<LookAt>
+					<gx:TimeStamp><when>2015-05-26</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>38.30185077567133</longitude>
+					<latitude>48.32000763618012</latitude>
+					<altitude>0</altitude>
+					<heading>0.04412736581149918</heading>
+					<tilt>0</tilt>
+					<range>386.2696986840883</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_info_circle0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>38.30185077567133,48.32000763618012,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
