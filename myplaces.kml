@@ -2046,6 +2046,68 @@
 						<coordinates>39.34825760412488,48.57996904699049,0</coordinates>
 					</Point>
 				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-04-10</when>
+</gx:TimeStamp>
+						<longitude>39.31785130432391</longitude>
+						<latitude>48.53659510788668</latitude>
+						<altitude>0</altitude>
+						<heading>-0.02810340119043512</heading>
+						<tilt>0</tilt>
+						<range>401.6559812017392</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>39.31785130406168,48.53659510804009,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-04-10</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>39.33754278517009</longitude>
+						<latitude>48.54203258203807</latitude>
+						<altitude>0</altitude>
+						<heading>-0.01406073813656501</heading>
+						<tilt>0</tilt>
+						<range>385.3002481570201</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>39.33754278517008,48.54203258203806,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<description><![CDATA[Likely a training area
+<a href="http://wikimapia.org/#lang=ru&lat=48.528038&lon=39.400492&z=18&m=h">http://wikimapia.org/#lang=ru&lat=48.528038&lon=39.400492&z=18&m=h</a>]]></description>
+					<LookAt>
+						<longitude>39.40069464061186</longitude>
+						<latitude>48.52842160493076</latitude>
+						<altitude>0</altitude>
+						<heading>0.02768841762198009</heading>
+						<tilt>0</tilt>
+						<range>397.5587807905472</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>39.40069464061185,48.52842160493076,0</coordinates>
+					</Point>
+				</Placemark>
 			</Folder>
 		</Folder>
 		<Folder>
