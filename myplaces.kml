@@ -1869,6 +1869,183 @@
 						<coordinates>38.63709327025536,48.57710785588054,0</coordinates>
 					</Point>
 				</Placemark>
+				<Placemark>
+					<name>Base (?)</name>
+					<LookAt>
+						<longitude>38.94311612431623</longitude>
+						<latitude>48.15227346524711</latitude>
+						<altitude>0</altitude>
+						<heading>0.8388061329548848</heading>
+						<tilt>0</tilt>
+						<range>296.8534436472634</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.94311612431623,48.15227346524711,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base (?)</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-04-10</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>38.88996965683056</longitude>
+						<latitude>48.12804949605063</latitude>
+						<altitude>0</altitude>
+						<heading>0.8026865593737387</heading>
+						<tilt>0</tilt>
+						<range>496.6443717239924</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.88996965683057,48.12804949605064,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-04-27</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>38.92047636928218</longitude>
+						<latitude>48.13709110158223</latitude>
+						<altitude>0</altitude>
+						<heading>0.8266553524641694</heading>
+						<tilt>0</tilt>
+						<range>339.272829917438</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.92047636928218,48.13709110158224,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<description>Possibly former &quot;Brianka USSR&quot; base</description>
+					<LookAt>
+						<gx:TimeStamp><when>2015-06-07</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>38.7087950315028</longitude>
+						<latitude>48.52168171704029</latitude>
+						<altitude>0</altitude>
+						<heading>0.5204073593502506</heading>
+						<tilt>0</tilt>
+						<range>540.2060017331753</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.7087950315028,48.52168171704028,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-04-24</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>39.3083845679412</longitude>
+						<latitude>48.51620183877182</latitude>
+						<altitude>0</altitude>
+						<heading>3.834290736524867</heading>
+						<tilt>0</tilt>
+						<range>361.6118779325201</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>39.30838456794119,48.51620183877182,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<description><![CDATA[<a href="https://www.terraserver.com/preview/406deb9b97bb351dcfc3ad951874532b?bbox=39.31202173233032,48.51875056090016,39.31588411331177,48.52066928275371&latitude=48.5197100000&longitude=39.3139530000&image_area=60829.38529209287%20&horizontal_distance=284.7935798010643%20&vertical_distance=213.59113971102778">https://www.terraserver.com/preview/406deb9b97bb351dcfc3ad951874532b?bbox=39.31202173233032,48.51875056090016,39.31588411331177,48.52066928275371&latitude=48.5197100000&longitude=39.3139530000&image_area=60829.38529209287%20&horizontal_distance=284.7935798010643%20&vertical_distance=213.59113971102778</a>]]></description>
+					<LookAt>
+						<gx:TimeStamp><when>2015-07-24</when>
+</gx:TimeStamp>
+						<longitude>39.3137782666786</longitude>
+						<latitude>48.51976947489267</latitude>
+						<altitude>0</altitude>
+						<heading>3.838332632693495</heading>
+						<tilt>0</tilt>
+						<range>505.2796810313683</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>39.3137782666786,48.51976947489266,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-07-24</when>
+</gx:TimeStamp>
+						<longitude>39.30355457389381</longitude>
+						<latitude>48.57973781413391</latitude>
+						<altitude>0</altitude>
+						<heading>0.02321338292319375</heading>
+						<tilt>0</tilt>
+						<range>431.6093528170811</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>39.30286904807139,48.57959468149436,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-04-10</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>39.34857452308849</longitude>
+						<latitude>48.58022548424865</latitude>
+						<altitude>0</altitude>
+						<heading>1.140864964240963e-011</heading>
+						<tilt>0</tilt>
+						<range>325.8589838999895</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>39.34825760412488,48.57996904699049,0</coordinates>
+					</Point>
+				</Placemark>
 			</Folder>
 		</Folder>
 		<Folder>
