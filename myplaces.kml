@@ -96,6 +96,15 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
 	<StyleMap id="msn_ylw-pushpin">
 		<Pair>
 			<key>normal</key>
@@ -106,15 +115,6 @@
 			<styleUrl>#sh_ylw-pushpin1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_ylw-pushpin2">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
 	<StyleMap id="msn_firedept">
 		<Pair>
 			<key>normal</key>
@@ -150,7 +150,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin</styleUrl>
+			<styleUrl>#sh_ylw-pushpin4</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_truck">
@@ -199,6 +199,17 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
+	</Style>
+	<Style id="sn_truck0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<Style id="sh_truck00">
 		<IconStyle>
@@ -284,7 +295,7 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_truck0">
+	<Style id="sn_truck00">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -328,6 +339,17 @@
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<Style id="s_ylw-pushpin0">
 		<IconStyle>
@@ -410,7 +432,7 @@
 	<StyleMap id="msn_truck1">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_truck00</styleUrl>
+			<styleUrl>#sn_truck000</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -540,6 +562,16 @@
 			</Icon>
 		</IconStyle>
 	</Style>
+	<StyleMap id="msn_truck2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_truck0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_truck4</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin0">
 		<Pair>
 			<key>normal</key>
@@ -640,6 +672,16 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sn_info_circle">
 		<IconStyle>
 			<scale>1.2</scale>
@@ -660,7 +702,7 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin">
+	<Style id="sh_ylw-pushpin4">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -734,7 +776,7 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_truck2">
+	<StyleMap id="msn_truck21">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_truck3</styleUrl>
@@ -744,7 +786,7 @@
 			<styleUrl>#sh_truck00</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin2">
+	<StyleMap id="msn_ylw-pushpin20">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_ylw-pushpin3</styleUrl>
@@ -829,6 +871,17 @@
 			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sh_truck4">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Style id="sn_ylw-pushpin1">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -841,7 +894,7 @@
 	<StyleMap id="msn_truck5">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_truck0</styleUrl>
+			<styleUrl>#sn_truck00</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -865,7 +918,7 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_truck00">
+	<Style id="sn_truck000">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -894,6 +947,17 @@
 			<styleUrl>#sh_bus</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sn_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Style id="s_ylw-pushpin2">
 		<IconStyle>
 			<scale>1.2</scale>
@@ -2361,7 +2425,7 @@
 						<range>246.1785257314174</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_truck2</styleUrl>
+					<styleUrl>#msn_truck21</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>38.03967737169464,48.30728281669849,0</coordinates>
@@ -2380,7 +2444,7 @@
 						<range>293.9234393926402</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_truck2</styleUrl>
+					<styleUrl>#msn_truck21</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>38.10243929113359,48.29332404275811,0</coordinates>
@@ -2745,6 +2809,160 @@ Possibly a scrap metal yard]]></description>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>39.06740631702436,48.12072037621746,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-06-10</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>39.17988956894281</longitude>
+						<latitude>48.59730784345985</latitude>
+						<altitude>0</altitude>
+						<heading>0.07619910531616049</heading>
+						<tilt>0</tilt>
+						<range>428.4666091722789</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>39.17988956894281,48.59730784345985,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Ranges</name>
+					<LookAt>
+						<longitude>39.16783832875031</longitude>
+						<latitude>48.60000709113989</latitude>
+						<altitude>0</altitude>
+						<heading>0.07069134569714665</heading>
+						<tilt>0</tilt>
+						<range>380.9705697676139</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>39.16783832875031,48.60000709113989,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-05-26</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>38.78700389531193</longitude>
+						<latitude>48.48858739296466</latitude>
+						<altitude>0</altitude>
+						<heading>0.00790014706810961</heading>
+						<tilt>0.01243287170694664</tilt>
+						<range>478.4630450705361</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.78700389531194,48.48858739296466,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-04-10</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>38.79278861741683</longitude>
+						<latitude>48.48945555142116</latitude>
+						<altitude>0</altitude>
+						<heading>0.01223039480819304</heading>
+						<tilt>0.01243288513607991</tilt>
+						<range>485.5562509588978</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.79278861741683,48.48945555142116,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base (?)</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-04-27</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>38.77268005243575</longitude>
+						<latitude>48.47136127745322</latitude>
+						<altitude>0</altitude>
+						<heading>-0.01044494886341227</heading>
+						<tilt>0.01210212752682425</tilt>
+						<range>420.0189786423265</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.77268005243575,48.47136127745321,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-06-04</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>38.7820191304712</longitude>
+						<latitude>48.47473864128841</latitude>
+						<altitude>0</altitude>
+						<heading>-0.003452330590248088</heading>
+						<tilt>0.01210215337198818</tilt>
+						<range>433.5642298840941</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.78134651009512,48.47446202327608,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base (?)</name>
+					<LookAt>
+						<longitude>38.78636247565867</longitude>
+						<latitude>48.47778827050357</latitude>
+						<altitude>0</altitude>
+						<heading>-0.001027795456735621</heading>
+						<tilt>0</tilt>
+						<range>170.4859261547676</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.78624776266758,48.47760321885308,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -3415,7 +3633,7 @@ Older looking dug-in positions appear to be Ukrainian]]></description>
 					<range>259.9960514586227</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<styleUrl>#msn_ylw-pushpin20</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.79534716746346,48.08378940073764,0</coordinates>
@@ -3470,6 +3688,78 @@ Older looking dug-in positions appear to be Ukrainian]]></description>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>38.5316904065141,48.65884807464721,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Trenches</name>
+				<LookAt>
+					<gx:TimeStamp><when>2015-04-27</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>39.18252783434211</longitude>
+					<latitude>48.61205250426566</latitude>
+					<altitude>0</altitude>
+					<heading>0.09164036451307693</heading>
+					<tilt>0</tilt>
+					<range>679.4416872701306</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>39.18252783434211,48.61205250426566,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Trenches</name>
+				<LookAt>
+					<gx:TimeStamp><when>2015-04-27</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>39.16163576785458</longitude>
+					<latitude>48.61340229803177</latitude>
+					<altitude>0</altitude>
+					<heading>0.07937775518885107</heading>
+					<tilt>0</tilt>
+					<range>652.4444081554572</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>39.16163576785458,48.61340229803177,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Trenches</name>
+				<LookAt>
+					<gx:TimeStamp><when>2015-04-27</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>39.12793812423579</longitude>
+					<latitude>48.61004683376658</latitude>
+					<altitude>0</altitude>
+					<heading>0.05433254177277236</heading>
+					<tilt>0</tilt>
+					<range>1212.494068292485</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>39.12628681278117,48.61169989280127,0</coordinates>
 				</Point>
 			</Placemark>
 		</Folder>
