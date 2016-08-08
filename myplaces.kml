@@ -1878,6 +1878,7 @@
 				</Placemark>
 				<Placemark>
 					<name>Base</name>
+					<description><![CDATA[<a href="https://twitter.com/GirkinGirkin/status/761919854169493504">https://twitter.com/GirkinGirkin/status/761919854169493504</a>]]></description>
 					<LookAt>
 						<gx:TimeStamp><when>2015-05-21</when>
 </gx:TimeStamp>
@@ -1894,7 +1895,7 @@
 						<range>412.3852681189858</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_truck20</styleUrl>
+					<styleUrl>#msn_truck</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>37.77852060694283,48.03143986045021,0</coordinates>
@@ -2520,6 +2521,48 @@
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>38.42459359167022,48.36794543133772,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Commandant&apos;s Office</name>
+					<description><![CDATA[<a href="https://twitter.com/xy_krasnodon/status/762368598207827973">https://twitter.com/xy_krasnodon/status/762368598207827973</a>]]></description>
+					<LookAt>
+						<longitude>39.34656669215911</longitude>
+						<latitude>48.56666326200865</latitude>
+						<altitude>0</altitude>
+						<heading>1.271230115532315</heading>
+						<tilt>0</tilt>
+						<range>187.4469961690843</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>39.34656669215911,48.56666326200865,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AFVs</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-05-26</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>38.55547318480792</longitude>
+						<latitude>48.5418632898328</latitude>
+						<altitude>0</altitude>
+						<heading>0.7512255985466445</heading>
+						<tilt>0</tilt>
+						<range>266.611775591567</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.55547318480792,48.5418632898328,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
