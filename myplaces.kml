@@ -132,7 +132,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_shopping0</styleUrl>
+			<styleUrl>#sh_shopping00</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_truck10">
@@ -199,6 +199,17 @@
 			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sh_shopping0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<StyleMap id="m_ylw-pushpin0">
 		<Pair>
 			<key>normal</key>
@@ -895,6 +906,16 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
+	<StyleMap id="msn_shopping1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_shopping1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_shopping0</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_truck0">
 		<Pair>
 			<key>normal</key>
@@ -1131,6 +1152,17 @@
 			<styleUrl>#sh_flag</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sn_shopping1">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Style id="sh_man">
 		<IconStyle>
 			<scale>1.4</scale>
@@ -1192,7 +1224,7 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_shopping0">
+	<Style id="sh_shopping00">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -1340,7 +1372,6 @@
 		</Placemark>
 		<Folder>
 			<name>Bases and Camps</name>
-			<open>1</open>
 			<Folder>
 				<name>Personnel</name>
 				<Placemark>
@@ -1422,7 +1453,6 @@
 			</Folder>
 			<Folder>
 				<name>Vehicles</name>
-				<open>1</open>
 				<Placemark>
 					<name>SPR-2M &quot;Rtut-BM&quot;</name>
 					<description><![CDATA[<a href="https://informnapalm.org/26046-rtut-bm-v-donetske/">https://informnapalm.org/26046-rtut-bm-v-donetske/</a>]]></description>
@@ -4596,6 +4626,31 @@ Older looking dug-in positions appear to be Ukrainian]]></description>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>38.62832356999646,48.55660584956107,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Base</name>
+				<description><![CDATA[<a href="https://twitter.com/herovij_dok/status/768063897928626176">https://twitter.com/herovij_dok/status/768063897928626176</a>]]></description>
+				<LookAt>
+					<gx:TimeStamp><when>2015-05-21</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>37.869136213285</longitude>
+					<latitude>47.97997935449202</latitude>
+					<altitude>0</altitude>
+					<heading>2.181133874010111e-005</heading>
+					<tilt>0</tilt>
+					<range>391.168660806419</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_shopping1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.869136213285,47.97997935449202,0</coordinates>
 				</Point>
 			</Placemark>
 		</Folder>
