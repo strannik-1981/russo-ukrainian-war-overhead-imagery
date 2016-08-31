@@ -3843,6 +3843,102 @@ Possibly a scrap metal yard]]></description>
 						<coordinates>38.4822187479672,47.79642339574586,0</coordinates>
 					</Point>
 				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-07-23</when>
+</gx:TimeStamp>
+						<longitude>38.03620762998251</longitude>
+						<latitude>48.30404634175268</latitude>
+						<altitude>0</altitude>
+						<heading>0.2821758241485766</heading>
+						<tilt>0</tilt>
+						<range>239.9951172488067</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.03590981035325,48.30401273757448,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<description><![CDATA[<a href="https://www.terraserver.com/preview/336e7d4c75a4852857896e8552ff6150?bbox=38.40176582336426,47.631998794709574,38.4056282043457,47.633950872803425&latitude=47.6329766504&longitude=38.4036943316&image_area=62962.74384558793%20&horizontal_distance=289.7445307376142%20&vertical_distance=217.30433939616105">https://www.terraserver.com/preview/336e7d4c75a4852857896e8552ff6150?bbox=38.40176582336426,47.631998794709574,38.4056282043457,47.633950872803425&latitude=47.6329766504&longitude=38.4036943316&image_area=62962.74384558793%20&horizontal_distance=289.7445307376142%20&vertical_distance=217.30433939616105</a>]]></description>
+					<LookAt>
+						<gx:TimeStamp><when>2015-08-02</when>
+</gx:TimeStamp>
+						<longitude>38.40397617664306</longitude>
+						<latitude>47.63284366089592</latitude>
+						<altitude>0</altitude>
+						<heading>0.4345902461356168</heading>
+						<tilt>0</tilt>
+						<range>320.9505025822941</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.40397617664307,47.63284366089592,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<description><![CDATA[<a href="https://www.terraserver.com/preview/3683a12d64184fbc27b6b1754f619e9b?bbox=37.94577956199645,47.096604711424234,37.949641942977905,47.09857670315674&latitude=47.0975925423&longitude=37.9477080703&image_area=64251.768138511616%20&horizontal_distance=292.69542286685663%20&vertical_distance=219.51750221847138">https://www.terraserver.com/preview/3683a12d64184fbc27b6b1754f619e9b?bbox=37.94577956199645,47.096604711424234,37.949641942977905,47.09857670315674&latitude=47.0975925423&longitude=37.9477080703&image_area=64251.768138511616%20&horizontal_distance=292.69542286685663%20&vertical_distance=219.51750221847138</a><br/>
+<img src="https://gur.gov.ua/images/items/20160830/sl-10.jpg"/><br/>
+<a href="https://gur.gov.ua/content/osoblyvosti-rozvytku-obstanovky-na-tymchasovo-okupovanykh-terytoriiakh-ukrainy-19-29-08-2016.html">https://gur.gov.ua/content/osoblyvosti-rozvytku-obstanovky-na-tymchasovo-okupovanykh-terytoriiakh-ukrainy-19-29-08-2016.html</a>]]></description>
+					<LookAt>
+						<longitude>37.94762174069376</longitude>
+						<latitude>47.09804291177267</latitude>
+						<altitude>0</altitude>
+						<heading>-0.1371251249418314</heading>
+						<tilt>0</tilt>
+						<range>361.6719174632985</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.94762174069377,47.09804291177267,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<description><![CDATA[<a href="https://www.terraserver.com/preview/3683a12d64184fbc27b6b1754f619e9b?bbox=37.95001208782196,47.097218227789405,37.953874468803406,47.09919019680079&latitude=47.0982023955&longitude=37.9519405961&image_area=64252.40269167084%20&horizontal_distance=292.6968681863992%20&vertical_distance=219.5185862076008">https://www.terraserver.com/preview/3683a12d64184fbc27b6b1754f619e9b?bbox=37.95001208782196,47.097218227789405,37.953874468803406,47.09919019680079&latitude=47.0982023955&longitude=37.9519405961&image_area=64252.40269167084%20&horizontal_distance=292.6968681863992%20&vertical_distance=219.5185862076008</a>]]></description>
+					<LookAt>
+						<longitude>37.95207740672016</longitude>
+						<latitude>47.09835551307265</latitude>
+						<altitude>0</altitude>
+						<heading>-0.1338612632371688</heading>
+						<tilt>0</tilt>
+						<range>363.4189268377918</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.95207740672016,47.09835551307265,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-07-19</when>
+</gx:TimeStamp>
+						<longitude>38.18484758781307</longitude>
+						<latitude>47.18648470044231</latitude>
+						<altitude>0</altitude>
+						<heading>0.03164756171834427</heading>
+						<tilt>0</tilt>
+						<range>341.7019477902033</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.18484758781307,47.18648470044231,0</coordinates>
+					</Point>
+				</Placemark>
 			</Folder>
 		</Folder>
 		<Folder>
