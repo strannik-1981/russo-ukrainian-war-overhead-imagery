@@ -3,6 +3,16 @@
 <Document>
 	<name>default_my_places</name>
 	<open>1</open>
+	<StyleMap id="msn_truck">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_truck0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_truck</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sh_flag">
 		<IconStyle>
 			<scale>1.4</scale>
@@ -59,15 +69,6 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_police">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/police.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
 	<Style id="sn_ylw-pushpin2">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -75,6 +76,15 @@
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_police">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/police.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
 	<Style id="sn_ylw-pushpin4">
@@ -99,7 +109,7 @@
 	<StyleMap id="msn_truck20">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_truck10</styleUrl>
+			<styleUrl>#sn_truck101</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -126,16 +136,6 @@
 			<styleUrl>#s_ylw-pushpin_hl4</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_shopping0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_shopping</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_shopping00</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="sn_truck">
 		<IconStyle>
 			<scale>1.2</scale>
@@ -154,6 +154,26 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
+	<StyleMap id="msn_shopping0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_shopping</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_shopping00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_bus">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bus0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bus1</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sn_info_circle0">
 		<IconStyle>
 			<scale>1.2</scale>
@@ -166,11 +186,11 @@
 	<StyleMap id="msn_bus00">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_bus00</styleUrl>
+			<styleUrl>#sn_bus000</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_bus1</styleUrl>
+			<styleUrl>#sh_bus10</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_shopping">
@@ -221,6 +241,17 @@
 			<styleUrl>#sh_truck000</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sh_truck">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<StyleMap id="msn_truck01">
 		<Pair>
 			<key>normal</key>
@@ -361,7 +392,7 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_truck">
+	<Style id="sh_truck0">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -427,6 +458,17 @@
 			<styleUrl>#sh_ylw-pushpin3</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sn_truck0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Style id="sh_bus01">
 		<IconStyle>
 			<scale>1.4</scale>
@@ -585,7 +627,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_truck</styleUrl>
+			<styleUrl>#sh_truck0</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sh_firedept2">
@@ -643,7 +685,7 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_truck0">
+	<Style id="sn_truck1">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -681,6 +723,17 @@
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
+	</Style>
+	<Style id="sn_bus0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<StyleMap id="msn_truck0">
 		<Pair>
@@ -749,7 +802,7 @@
 	<StyleMap id="msn_bus000">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_bus0</styleUrl>
+			<styleUrl>#sn_bus00</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -775,7 +828,7 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_bus">
+	<StyleMap id="msn_bus2">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_bus</styleUrl>
@@ -859,6 +912,17 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<Style id="sh_bus1">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<StyleMap id="msn_firedept0">
 		<Pair>
 			<key>normal</key>
@@ -896,7 +960,7 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_bus0">
+	<Style id="sn_bus00">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -905,7 +969,7 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_bus00">
+	<Style id="sn_bus000">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -943,7 +1007,7 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_bus1">
+	<Style id="sh_bus10">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -991,11 +1055,11 @@
 	<StyleMap id="msn_truck1">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_truck1</styleUrl>
+			<styleUrl>#sn_truck10</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_truck0</styleUrl>
+			<styleUrl>#sh_truck02</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sn_police">
@@ -1035,16 +1099,6 @@
 			<styleUrl>#sh_truck4</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_police">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_police</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_police</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin0">
 		<Pair>
 			<key>normal</key>
@@ -1055,10 +1109,20 @@
 			<styleUrl>#sh_ylw-pushpin0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_truck">
+	<StyleMap id="msn_police">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_truck0</styleUrl>
+			<styleUrl>#sn_police</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_police</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_truck7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_truck1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -1183,7 +1247,7 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_truck1">
+	<Style id="sn_truck10">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -1265,7 +1329,7 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_truck10">
+	<Style id="sn_truck101">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -1274,7 +1338,7 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_truck0">
+	<Style id="sh_truck02">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -1302,7 +1366,7 @@
 			<styleUrl>#sh_flag</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_truck7">
+	<StyleMap id="msn_truck8">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_truck01</styleUrl>
@@ -3535,7 +3599,7 @@ Possibly a scrap metal yard]]></description>
 				</Placemark>
 				<Placemark>
 					<name>Base</name>
-					<description><![CDATA[<a href="http://wikimapia.org/#lang=uk&lat=47.741899&lon=38.024894&z=18">http://wikimapia.org/#lang=uk&lat=47.741899&lon=38.024894&z=18</a>]]></description>
+					<description><![CDATA[<a href="http://wikimapia.org/#lang=uk&lat=47.741953&lon=38.025275&z=18&m=yh">http://wikimapia.org/#lang=uk&lat=47.741953&lon=38.025275&z=18&m=yh</a>]]></description>
 					<LookAt>
 						<longitude>38.02425644860114</longitude>
 						<latitude>47.74193861487859</latitude>
@@ -3545,7 +3609,7 @@ Possibly a scrap metal yard]]></description>
 						<range>528.2940956993243</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_truck7</styleUrl>
+					<styleUrl>#msn_truck</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>38.02425644860114,47.74193861487859,0</coordinates>
@@ -3595,7 +3659,7 @@ Possibly a scrap metal yard]]></description>
 						<range>366.452040229136</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_truck7</styleUrl>
+					<styleUrl>#msn_truck8</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>37.67650009201017,47.73978615622962,0</coordinates>
@@ -3740,7 +3804,7 @@ Possibly a scrap metal yard]]></description>
 						<range>341.0047598739625</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_bus</styleUrl>
+					<styleUrl>#msn_bus2</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>38.49347962913649,47.69995385310981,0</coordinates>
@@ -3780,7 +3844,7 @@ Possibly a scrap metal yard]]></description>
 						<range>299.4729012543969</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_truck</styleUrl>
+					<styleUrl>#msn_truck7</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>38.48623742984746,47.82653497628357,0</coordinates>
@@ -3799,7 +3863,7 @@ Possibly a scrap metal yard]]></description>
 						<range>384.1971420141456</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_truck</styleUrl>
+					<styleUrl>#msn_truck7</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>38.45108684657747,47.80947018422658,0</coordinates>
@@ -3818,7 +3882,7 @@ Possibly a scrap metal yard]]></description>
 						<range>337.5932406677758</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_truck</styleUrl>
+					<styleUrl>#msn_truck7</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>38.47584704910336,47.78118145152264,0</coordinates>
@@ -3837,7 +3901,7 @@ Possibly a scrap metal yard]]></description>
 						<range>344.7676558926623</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_truck</styleUrl>
+					<styleUrl>#msn_truck7</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>38.4822187479672,47.79642339574586,0</coordinates>
@@ -3856,7 +3920,7 @@ Possibly a scrap metal yard]]></description>
 						<range>239.9951172488067</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_truck</styleUrl>
+					<styleUrl>#msn_truck7</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>38.03590981035325,48.30401273757448,0</coordinates>
@@ -3876,7 +3940,7 @@ Possibly a scrap metal yard]]></description>
 						<range>320.9505025822941</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_truck</styleUrl>
+					<styleUrl>#msn_truck7</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>38.40397617664307,47.63284366089592,0</coordinates>
@@ -3896,7 +3960,7 @@ Possibly a scrap metal yard]]></description>
 						<range>361.6719174632985</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_truck</styleUrl>
+					<styleUrl>#msn_truck7</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>37.94762174069377,47.09804291177267,0</coordinates>
@@ -3914,7 +3978,7 @@ Possibly a scrap metal yard]]></description>
 						<range>363.4189268377918</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_truck</styleUrl>
+					<styleUrl>#msn_truck7</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>37.95207740672016,47.09835551307265,0</coordinates>
@@ -3933,10 +3997,252 @@ Possibly a scrap metal yard]]></description>
 						<range>341.7019477902033</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_truck</styleUrl>
+					<styleUrl>#msn_truck7</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>38.18484758781307,47.18648470044231,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<description><![CDATA[<a href="https://www.terraserver.com/preview/067bea474ec1ac22e2b7dfee2659c73f?bbox=38.62149238586426,47.959403150675854,38.62921714782715,47.96328271064898&latitude=47.9613400000&longitude=38.6253550000&image_area=248692.33823060413%20&horizontal_distance=575.8491427464804%20&vertical_distance=431.8706407106553">https://www.terraserver.com/preview/067bea474ec1ac22e2b7dfee2659c73f?bbox=38.62149238586426,47.959403150675854,38.62921714782715,47.96328271064898&latitude=47.9613400000&longitude=38.6253550000&image_area=248692.33823060413%20&horizontal_distance=575.8491427464804%20&vertical_distance=431.8706407106553</a>]]></description>
+					<LookAt>
+						<longitude>38.62495291077714</longitude>
+						<latitude>47.96091461103045</latitude>
+						<altitude>0</altitude>
+						<heading>0.7372417032796833</heading>
+						<tilt>0</tilt>
+						<range>440.6614778578603</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck7</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.62495291077714,47.96091461103045,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-07-09</when>
+</gx:TimeStamp>
+						<longitude>37.92357772156479</longitude>
+						<latitude>47.232986157357</latitude>
+						<altitude>0</altitude>
+						<heading>0.0001230175447091292</heading>
+						<tilt>0</tilt>
+						<range>496.7562318051333</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck7</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.92338929095168,47.2329935389693,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<description><![CDATA[<a href="https://www.terraserver.com/preview/79c0c15c08c8fbe83a112acd05762906?bbox=37.92598485946655,47.230406305892785,37.929847240448,47.232373337031376&latitude=47.2313916519&longitude=37.9279133677&image_area=63931.02802133495%20&horizontal_distance=291.96395763302525%20&vertical_distance=218.96890472244868">https://www.terraserver.com/preview/79c0c15c08c8fbe83a112acd05762906?bbox=37.92598485946655,47.230406305892785,37.929847240448,47.232373337031376&latitude=47.2313916519&longitude=37.9279133677&image_area=63931.02802133495%20&horizontal_distance=291.96395763302525%20&vertical_distance=218.96890472244868</a>]]></description>
+					<LookAt>
+						<longitude>37.92795180730508</longitude>
+						<latitude>47.23165800493893</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0003631126959230544</heading>
+						<tilt>0</tilt>
+						<range>511.8384083575493</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck7</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.92819154358624,47.23120270868385,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Hidden Vehicles</name>
+					<description><![CDATA[<a href="https://www.terraserver.com/preview/64c4df18e5aab6b1e2d05ffd3100a237?bbox=37.92587220668793,47.34927666697017,37.92973458766937,47.351239282080336&latitude=47.3502598009&longitude=37.9278007150&image_area=63644.29936182781%20&horizontal_distance=291.3085024550127%20&vertical_distance=218.47731468688087">https://www.terraserver.com/preview/64c4df18e5aab6b1e2d05ffd3100a237?bbox=37.92587220668793,47.34927666697017,37.92973458766937,47.351239282080336&latitude=47.3502598009&longitude=37.9278007150&image_area=63644.29936182781%20&horizontal_distance=291.3085024550127%20&vertical_distance=218.47731468688087</a>]]></description>
+					<LookAt>
+						<gx:TimeStamp><when>2015-03-25</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>37.92809751033542</longitude>
+						<latitude>47.35019910982879</latitude>
+						<altitude>0</altitude>
+						<heading>0.008270409637056105</heading>
+						<tilt>0</tilt>
+						<range>372.6738413547786</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_bus</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.92809751033542,47.35019910982879,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<description><![CDATA[<a href="https://www.terraserver.com/preview/79c0c15c08c8fbe83a112acd05762906?bbox=38.00909042358398,47.41551089518066,38.01295280456543,47.41747104602647&latitude=47.4164927947&longitude=38.0110189319&image_area=63484.57707699652%20&horizontal_distance=290.94274053452654%20&vertical_distance=218.2029940336756">https://www.terraserver.com/preview/79c0c15c08c8fbe83a112acd05762906?bbox=38.00909042358398,47.41551089518066,38.01295280456543,47.41747104602647&latitude=47.4164927947&longitude=38.0110189319&image_area=63484.57707699652%20&horizontal_distance=290.94274053452654%20&vertical_distance=218.2029940336756</a>]]></description>
+					<LookAt>
+						<gx:TimeStamp><when>2015-03-25</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>38.00964177204499</longitude>
+						<latitude>47.41681659708743</latitude>
+						<altitude>0</altitude>
+						<heading>1.081961091540259e-010</heading>
+						<tilt>0</tilt>
+						<range>405.1189666272956</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck7</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.00964177204499,47.41681659708743,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-07-20</when>
+</gx:TimeStamp>
+						<longitude>38.06544298833543</longitude>
+						<latitude>47.64544310496002</latitude>
+						<altitude>0</altitude>
+						<heading>0.1272350788844366</heading>
+						<tilt>0</tilt>
+						<range>218.156611106386</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.06544298833543,47.64544310496002,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-06-11</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>38.07064750639847</longitude>
+						<latitude>47.65490152941739</latitude>
+						<altitude>0</altitude>
+						<heading>0.1320507140652099</heading>
+						<tilt>0</tilt>
+						<range>331.594779405121</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.07064750639847,47.65490152941739,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-07-20</when>
+</gx:TimeStamp>
+						<longitude>38.06367525360793</longitude>
+						<latitude>47.67233973634182</latitude>
+						<altitude>0</altitude>
+						<heading>0.1288526577325394</heading>
+						<tilt>0</tilt>
+						<range>251.4630565956996</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.06367525360793,47.67233973634182,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<description><![CDATA[<a href="https://www.terraserver.com/preview/b4f1b32642964bb65b3c6a023d78573a?bbox=38.06320667266846,47.66509472545336,38.0670690536499,47.667045566953824&latitude=47.6660719617&longitude=38.0651351810&image_area=62882.999035846%20&horizontal_distance=289.560987561852%20&vertical_distance=217.16668245032076">https://www.terraserver.com/preview/b4f1b32642964bb65b3c6a023d78573a?bbox=38.06320667266846,47.66509472545336,38.0670690536499,47.667045566953824&latitude=47.6660719617&longitude=38.0651351810&image_area=62882.999035846%20&horizontal_distance=289.560987561852%20&vertical_distance=217.16668245032076</a>]]></description>
+					<LookAt>
+						<longitude>38.06518743702459</longitude>
+						<latitude>47.66625954671736</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0001217810287166448</heading>
+						<tilt>0</tilt>
+						<range>588.6687363513938</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.06518743702459,47.66625954671737,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-07-20</when>
+</gx:TimeStamp>
+						<longitude>38.06816558687608</longitude>
+						<latitude>47.66356981995074</latitude>
+						<altitude>0</altitude>
+						<heading>0.002079764485766645</heading>
+						<tilt>0</tilt>
+						<range>591.122680854344</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.06826140443185,47.66321481974185,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-07-20</when>
+</gx:TimeStamp>
+						<longitude>38.07799866402907</longitude>
+						<latitude>47.65942628871727</latitude>
+						<altitude>0</altitude>
+						<heading>0.009348182783517685</heading>
+						<tilt>0</tilt>
+						<range>590.0351912833887</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.07799866402906,47.65942628871727,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-07-20</when>
+</gx:TimeStamp>
+						<longitude>38.07098747523089</longitude>
+						<latitude>47.67143376666213</latitude>
+						<altitude>0</altitude>
+						<heading>0.004072646369104591</heading>
+						<tilt>0</tilt>
+						<range>227.8312808368323</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>38.07098747523089,47.67143376666213,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -4903,6 +5209,7 @@ Older looking dug-in positions appear to be Ukrainian]]></description>
 		</Folder>
 		<Folder>
 			<name>Other</name>
+			<open>1</open>
 			<Placemark>
 				<name>Strange</name>
 				<LookAt>
