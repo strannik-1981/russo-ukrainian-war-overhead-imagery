@@ -2405,6 +2405,20 @@
 			<styleUrl>#sh_bus04</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sh_firedept2">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<StyleMap id="msn_ylw-pushpin2">
 		<Pair>
 			<key>normal</key>
@@ -2471,6 +2485,16 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
+	<StyleMap id="msn_firedept0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_firedept14</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_firedept2</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sh_truck51">
 		<IconStyle>
 			<scale>0.590909</scale>
@@ -2760,7 +2784,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_bus5</styleUrl>
+			<styleUrl>#sh_bus6</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sn_ylw-pushpin0">
@@ -3399,7 +3423,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_bus6</styleUrl>
+			<styleUrl>#sh_bus61</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_bus301">
@@ -4543,7 +4567,7 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_firedept0">
+	<StyleMap id="msn_firedept1">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_firedept4</styleUrl>
@@ -4750,7 +4774,7 @@
 			<styleUrl>#sh_truck008</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_firedept2">
+	<Style id="sh_firedept21">
 		<IconStyle>
 			<scale>0.583333</scale>
 			<Icon>
@@ -5799,6 +5823,20 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
+	<Style id="sn_bus4">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Style id="sh_ylw-pushpin16">
 		<IconStyle>
 			<scale>0.590909</scale>
@@ -5977,7 +6015,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="msn_firedept1">
+	<StyleMap id="msn_firedept2">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_firedept1</styleUrl>
@@ -7092,7 +7130,7 @@
 	<StyleMap id="msn_firedept3">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_firedept14</styleUrl>
+			<styleUrl>#sn_firedept15</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -7723,6 +7761,20 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
+	<Style id="sn_firedept14">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Style id="sh_truck007">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -7984,7 +8036,7 @@
 	<StyleMap id="msn_bus9">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_bus4</styleUrl>
+			<styleUrl>#sn_bus40</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -8219,7 +8271,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_bus4">
+	<Style id="sn_bus40">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -8411,7 +8463,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="msn_firedept2">
+	<StyleMap id="msn_firedept4">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_firedept</styleUrl>
@@ -8513,6 +8565,20 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
+	<Style id="sh_bus5">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<StyleMap id="m_ylw-pushpin11">
 		<Pair>
 			<key>normal</key>
@@ -8557,7 +8623,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sh_bus5">
+	<Style id="sh_bus6">
 		<IconStyle>
 			<scale>0.590909</scale>
 			<Icon>
@@ -8831,7 +8897,7 @@
 			<styleUrl>#sh_ylw-pushpin17</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_firedept14">
+	<Style id="sn_firedept15">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -9294,7 +9360,7 @@
 			<styleUrl>#s_ylw-pushpin_hl23</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_bus40">
+	<Style id="sn_bus400">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -9488,7 +9554,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="msn_firedept4">
+	<StyleMap id="msn_firedept8">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_firedept3</styleUrl>
@@ -9865,7 +9931,7 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sh_bus6">
+	<Style id="sh_bus61">
 		<IconStyle>
 			<scale>0.590909</scale>
 			<Icon>
@@ -10416,7 +10482,7 @@
 	<StyleMap id="msn_bus60">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_bus40</styleUrl>
+			<styleUrl>#sn_bus400</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -10518,7 +10584,7 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_firedept8">
+	<StyleMap id="msn_firedept9">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_firedept6</styleUrl>
@@ -11049,6 +11115,16 @@
 			<styleUrl>#s_ylw-pushpin_hl3</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="msn_bus25">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bus4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bus5</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sh_truck06">
 		<IconStyle>
 			<scale>0.590909</scale>
@@ -11179,7 +11255,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_firedept2</styleUrl>
+			<styleUrl>#sh_firedept21</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="m_ylw-pushpin9">
@@ -11367,6 +11443,7 @@
 	</StyleMap>
 	<Folder>
 		<name>Russo-Ukrainian war overhead imagery analysis</name>
+		<open>1</open>
 		<Folder>
 			<name>Bases and Camps</name>
 			<open>1</open>
@@ -12331,6 +12408,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 			</Folder>
 			<Folder>
 				<name>Vehicles</name>
+				<open>1</open>
 				<Placemark>
 					<name>Vehicles</name>
 					<description><![CDATA[<a href="https://twitter.com/relictDon/status/849691969290940416">https://twitter.com/relictDon/status/849691969290940416</a>]]></description>
@@ -23100,10 +23178,29 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 						<coordinates>37.97537117368042,47.57581428859193,0</coordinates>
 					</Point>
 				</Placemark>
+				<Placemark>
+					<name>Vehicles</name>
+					<description><![CDATA[<a href="https://twitter.com/strannik_1981/status/863302601378541568">https://twitter.com/strannik_1981/status/863302601378541568</a>]]></description>
+					<LookAt>
+						<longitude>37.63301351277278</longitude>
+						<latitude>47.79999213327255</latitude>
+						<altitude>0</altitude>
+						<heading>0.0003134082305055165</heading>
+						<tilt>0</tilt>
+						<range>289.7994279976907</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_bus25</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.63301351277278,47.79999213327254,0</coordinates>
+					</Point>
+				</Placemark>
 			</Folder>
 		</Folder>
 		<Folder>
 			<name>Firing Positions</name>
+			<open>1</open>
 			<Placemark>
 				<name>Firing Position</name>
 				<description><![CDATA[<a href="http://wikimapia.org/#lang=uk&lat=48.089776&lon=37.934412&z=18&m=ys">http://wikimapia.org/#lang=uk&lat=48.089776&lon=37.934412&z=18&m=ys</a><br/><br/>
@@ -24388,7 +24485,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<range>813.9985692327678</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_firedept0</styleUrl>
+				<styleUrl>#msn_firedept1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>38.30401176636026,48.29500661788168,0</coordinates>
@@ -24406,7 +24503,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<range>999.9999999990056</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_firedept0</styleUrl>
+				<styleUrl>#msn_firedept1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>38.29701,48.29629000000001,0</coordinates>
@@ -24424,7 +24521,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<range>1000.000000001676</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_firedept0</styleUrl>
+				<styleUrl>#msn_firedept1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>38.29937000000005,48.29891,0</coordinates>
@@ -24442,7 +24539,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<range>999.9999999999907</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_firedept0</styleUrl>
+				<styleUrl>#msn_firedept1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>38.30587000000001,48.29820999999999,0</coordinates>
@@ -24494,7 +24591,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<range>308.5509974438926</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_firedept1</styleUrl>
+				<styleUrl>#msn_firedept2</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.63114197225432,47.78986645572135,0</coordinates>
@@ -24512,7 +24609,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<range>192.7532430342471</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_firedept8</styleUrl>
+				<styleUrl>#msn_firedept9</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.67854089991187,47.71577698113635,0</coordinates>
@@ -24547,7 +24644,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<range>559.9301513493389</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_firedept2</styleUrl>
+				<styleUrl>#msn_firedept4</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.82870885051574,47.64432892348916,0</coordinates>
@@ -24565,7 +24662,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<range>1782.124089585819</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_firedept4</styleUrl>
+				<styleUrl>#msn_firedept8</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.90301950842223,47.56539739090367,0</coordinates>
@@ -24583,7 +24680,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<range>1065.363228366503</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_firedept4</styleUrl>
+				<styleUrl>#msn_firedept8</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.90512924947964,47.58059178545993,0</coordinates>
@@ -24601,10 +24698,136 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<range>409.7499635851191</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_firedept4</styleUrl>
+				<styleUrl>#msn_firedept8</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.90676469657944,47.58426185377635,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Firing Positions</name>
+				<LookAt>
+					<longitude>37.83497836740477</longitude>
+					<latitude>47.82829255296895</latitude>
+					<altitude>0</altitude>
+					<heading>0.1499683481593401</heading>
+					<tilt>0</tilt>
+					<range>848.7432260108138</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_firedept0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.83497836740477,47.82829255296894,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Firing Positions</name>
+				<LookAt>
+					<longitude>37.82599156290474</longitude>
+					<latitude>47.82464255610475</latitude>
+					<altitude>0</altitude>
+					<heading>0.1433084365865975</heading>
+					<tilt>0</tilt>
+					<range>848.7432260122635</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_firedept0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.82599156290474,47.82464255610475,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Firing Positions</name>
+				<LookAt>
+					<longitude>37.83318419465412</longitude>
+					<latitude>47.82205224659973</latitude>
+					<altitude>0</altitude>
+					<heading>0.1486387072388828</heading>
+					<tilt>0</tilt>
+					<range>848.7432260107951</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_firedept0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.83318419465412,47.82205224659972,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Firing Positions</name>
+				<LookAt>
+					<longitude>37.83385971714471</longitude>
+					<latitude>47.81504546488735</latitude>
+					<altitude>0</altitude>
+					<heading>0.1491392086511842</heading>
+					<tilt>0</tilt>
+					<range>848.7432260108271</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_firedept0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.83385971714471,47.81504546488735,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Firing Positions</name>
+				<LookAt>
+					<longitude>37.84242987067183</longitude>
+					<latitude>47.81099703271004</latitude>
+					<altitude>0</altitude>
+					<heading>0.1554890510744003</heading>
+					<tilt>0</tilt>
+					<range>848.7432260107781</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_firedept0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.84242987067183,47.81099703271003,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Firing Positions</name>
+				<LookAt>
+					<longitude>37.84723854143721</longitude>
+					<latitude>47.80802953405557</latitude>
+					<altitude>0</altitude>
+					<heading>0.1590519165092544</heading>
+					<tilt>0</tilt>
+					<range>848.7432260109513</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_firedept0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.84723854143721,47.80802953405556,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Firing Positions</name>
+				<LookAt>
+					<gx:TimeStamp><when>2016-03-15</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>37.89006976089325</longitude>
+					<latitude>47.78668235483892</latitude>
+					<altitude>0</altitude>
+					<heading>0.1840116236100956</heading>
+					<tilt>0</tilt>
+					<range>1507.177714677241</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_firedept0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.89006976089325,47.78668235483892,0</coordinates>
 				</Point>
 			</Placemark>
 		</Folder>
