@@ -34,6 +34,16 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
+	<StyleMap id="m_ylw-pushpin0000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin1003</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl00009</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="s_ylw-pushpin210">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -517,6 +527,16 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
+	<StyleMap id="m_ylw-pushpin00000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin1002</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl00004</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sn_firedept000">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -1083,6 +1103,16 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
+	<StyleMap id="m_ylw-pushpin00001">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin1006</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl00002</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_bus30">
 		<Pair>
 			<key>normal</key>
@@ -1511,6 +1541,20 @@
 			<styleUrl>#sh_truck153</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="s_ylw-pushpin100">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Style id="sn_shopping">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -1591,7 +1635,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="s_ylw-pushpin100">
+	<Style id="s_ylw-pushpin1000">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -2226,6 +2270,20 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
+	<Style id="s_ylw-pushpin1001">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<StyleMap id="msn_shopping1">
 		<Pair>
 			<key>normal</key>
@@ -2375,6 +2433,20 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
+	<Style id="s_ylw-pushpin1002">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Style id="sh_police2">
 		<IconStyle>
 			<scale>0.590909</scale>
@@ -2480,14 +2552,14 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin0000">
+	<StyleMap id="m_ylw-pushpin00002">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin1003</styleUrl>
+			<styleUrl>#s_ylw-pushpin10010</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl00002</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl00006</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="s_ylw-pushpin_hl07">
@@ -2572,6 +2644,16 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
+	<StyleMap id="m_ylw-pushpin00003">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin1001</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl00005</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sh_man">
 		<IconStyle>
 			<scale>0.590909</scale>
@@ -3107,6 +3189,20 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
+	<Style id="s_ylw-pushpin1003">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<StyleMap id="msn_truck502">
 		<Pair>
 			<key>normal</key>
@@ -3275,6 +3371,16 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
+	<StyleMap id="m_ylw-pushpin00004">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin10013</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl00003</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_truck004">
 		<Pair>
 			<key>normal</key>
@@ -3360,11 +3466,11 @@
 	<StyleMap id="msn_ylw-pushpin2">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin17</styleUrl>
+			<styleUrl>#sn_ylw-pushpin18</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin23</styleUrl>
+			<styleUrl>#sh_ylw-pushpin24</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sh_ylw-pushpin000">
@@ -3415,6 +3521,16 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
+	<StyleMap id="m_ylw-pushpin00005">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin1005</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl00008</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_truck52">
 		<Pair>
 			<key>normal</key>
@@ -3611,18 +3727,6 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl00001">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
 	<Style id="sn_truck0012">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -3635,7 +3739,19 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="s_ylw-pushpin1000">
+	<Style id="s_ylw-pushpin_hl00001">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="s_ylw-pushpin1004">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -3866,6 +3982,18 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
+	<Style id="s_ylw-pushpin1005">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
 	<StyleMap id="msn_firedept5">
 		<Pair>
 			<key>normal</key>
@@ -3937,7 +4065,7 @@
 	<StyleMap id="msn_ylw-pushpin3">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin19</styleUrl>
+			<styleUrl>#sn_ylw-pushpin22</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -4074,6 +4202,16 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_firedept50</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin00006">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl000010</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin6">
@@ -4220,6 +4358,20 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
+	<Style id="s_ylw-pushpin1006">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Style id="sn_ylw-pushpin20">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -4254,10 +4406,10 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin00000">
+	<StyleMap id="m_ylw-pushpin00007">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin1002</styleUrl>
+			<styleUrl>#s_ylw-pushpin1008</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -4596,7 +4748,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin26</styleUrl>
+			<styleUrl>#sh_ylw-pushpin27</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_truck006">
@@ -4701,14 +4853,14 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin00001">
+	<StyleMap id="m_ylw-pushpin00008">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin1005</styleUrl>
+			<styleUrl>#s_ylw-pushpin10012</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl00005</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl000013</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_firedept4">
@@ -4779,6 +4931,19 @@
 		<LabelStyle>
 			<scale>0.5</scale>
 		</LabelStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin10">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7fffff</color>
+			<width>3</width>
+		</LineStyle>
 	</Style>
 	<Style id="sh_bus51">
 		<IconStyle>
@@ -4892,6 +5057,16 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
+	<StyleMap id="msn_ylw-pushpin5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin22</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sn_truck204">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -5020,7 +5195,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin10">
+	<Style id="sn_ylw-pushpin11">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -5046,7 +5221,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin5">
+	<StyleMap id="msn_ylw-pushpin8">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_ylw-pushpin9</styleUrl>
@@ -5237,7 +5412,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin11">
+	<Style id="sn_ylw-pushpin12">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -5407,17 +5582,17 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin8">
+	<StyleMap id="msn_ylw-pushpin9">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin10</styleUrl>
+			<styleUrl>#sn_ylw-pushpin11</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_ylw-pushpin4</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_ylw-pushpin12">
+	<Style id="sn_ylw-pushpin14">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -5573,10 +5748,10 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin9">
+	<StyleMap id="msn_ylw-pushpin10">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin12</styleUrl>
+			<styleUrl>#sn_ylw-pushpin14</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -5961,6 +6136,20 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
+	<Style id="s_ylw-pushpin_hl00002">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Style id="s_ylw-pushpin5">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -6009,10 +6198,10 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin10">
+	<StyleMap id="msn_ylw-pushpin12">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin11</styleUrl>
+			<styleUrl>#sn_ylw-pushpin12</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -6304,7 +6493,7 @@
 			<styleUrl>#sh_bus17</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin12">
+	<StyleMap id="msn_ylw-pushpin13">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_ylw-pushpin8</styleUrl>
@@ -6410,7 +6599,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin13">
+	<StyleMap id="msn_ylw-pushpin14">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_ylw-pushpin6</styleUrl>
@@ -6920,14 +7109,14 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin00002">
+	<StyleMap id="m_ylw-pushpin00009">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin100</styleUrl>
+			<styleUrl>#s_ylw-pushpin1000</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl00004</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl000012</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_police5">
@@ -7102,6 +7291,20 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
+	<Style id="s_ylw-pushpin_hl00003">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<StyleMap id="msn_truck123">
 		<Pair>
 			<key>normal</key>
@@ -7183,7 +7386,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin14">
+	<Style id="sn_ylw-pushpin15">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -7268,7 +7471,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin14">
+	<StyleMap id="msn_ylw-pushpin15">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_ylw-pushpin1</styleUrl>
@@ -7407,6 +7610,20 @@
 		<LabelStyle>
 			<scale>0.5</scale>
 		</LabelStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl00004">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<Style id="sh_bus111">
 		<IconStyle>
@@ -7663,6 +7880,20 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
+	<Style id="s_ylw-pushpin_hl00005">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Style id="s_ylw-pushpin_hl1">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -7756,7 +7987,7 @@
 			<styleUrl>#sh_bus01</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin15">
+	<StyleMap id="msn_ylw-pushpin16">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_ylw-pushpin5</styleUrl>
@@ -7861,7 +8092,7 @@
 	<StyleMap id="msn_ylw-pushpin22">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin14</styleUrl>
+			<styleUrl>#sn_ylw-pushpin15</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -8293,10 +8524,10 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin00003">
+	<StyleMap id="m_ylw-pushpin000010">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin1000</styleUrl>
+			<styleUrl>#s_ylw-pushpin1004</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -8317,7 +8548,7 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl00002">
+	<Style id="s_ylw-pushpin_hl00006">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -8351,7 +8582,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin16">
+	<StyleMap id="msn_ylw-pushpin17">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_ylw-pushpin31</styleUrl>
@@ -8401,7 +8632,7 @@
 			<styleUrl>#sh_bus1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="s_ylw-pushpin_hl00003">
+	<Style id="s_ylw-pushpin_hl00007">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -8425,18 +8656,6 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="s_ylw-pushpin1001">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
 	<Style id="sh_truck001">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -8444,6 +8663,18 @@
 				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="s_ylw-pushpin1007">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<LabelStyle>
 			<scale>0.5</scale>
@@ -8459,14 +8690,14 @@
 			<styleUrl>#sh_shopping2</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin17">
+	<StyleMap id="msn_ylw-pushpin18">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin22</styleUrl>
+			<styleUrl>#sn_ylw-pushpin23</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin24</styleUrl>
+			<styleUrl>#sh_ylw-pushpin25</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sh_firedept90">
@@ -8513,7 +8744,7 @@
 			<styleUrl>#sh_truck611</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_ylw-pushpin15">
+	<Style id="sn_ylw-pushpin16">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -8570,7 +8801,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="s_ylw-pushpin1002">
+	<Style id="s_ylw-pushpin1008">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -8608,6 +8839,19 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
+	<Style id="sh_ylw-pushpin22">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7fffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
 	<StyleMap id="msn_truck126">
 		<Pair>
 			<key>normal</key>
@@ -8642,7 +8886,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin22">
+	<Style id="sh_ylw-pushpin23">
 		<IconStyle>
 			<scale>0.590909</scale>
 			<Icon>
@@ -8765,14 +9009,14 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin00004">
+	<StyleMap id="m_ylw-pushpin000011">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin1001</styleUrl>
+			<styleUrl>#s_ylw-pushpin1007</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl00003</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl00007</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sh_truck31">
@@ -8881,7 +9125,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin16">
+	<Style id="sn_ylw-pushpin17">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -9050,6 +9294,32 @@
 				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="s_ylw-pushpin1009">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl00008">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<LabelStyle>
 			<scale>0.5</scale>
@@ -9398,6 +9668,20 @@
 			<styleUrl>#sh_firedept31</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="s_ylw-pushpin_hl00009">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<StyleMap id="msn_truck90">
 		<Pair>
 			<key>normal</key>
@@ -9610,6 +9894,20 @@
 		<LabelStyle>
 			<scale>0.5</scale>
 		</LabelStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl000010">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<Style id="s_ylw-pushpin31">
 		<IconStyle>
@@ -9851,6 +10149,20 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
+	<Style id="s_ylw-pushpin_hl000011">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Style id="sh_firedept1000">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -9953,7 +10265,7 @@
 			<styleUrl>#sh_truck160</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_ylw-pushpin23">
+	<Style id="sh_ylw-pushpin24">
 		<IconStyle>
 			<scale>0.590909</scale>
 			<Icon>
@@ -10060,7 +10372,7 @@
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<Style id="s_ylw-pushpin1003">
+	<Style id="s_ylw-pushpin10010">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -10344,10 +10656,10 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin18">
+	<StyleMap id="msn_ylw-pushpin19">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin18</styleUrl>
+			<styleUrl>#sn_ylw-pushpin19</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -10436,7 +10748,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl00004">
+	<Style id="s_ylw-pushpin_hl000012">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -10470,7 +10782,7 @@
 			<styleUrl>#s_ylw-pushpin_hl03</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_ylw-pushpin24">
+	<Style id="sh_ylw-pushpin25">
 		<IconStyle>
 			<scale>0.590909</scale>
 			<Icon>
@@ -10484,7 +10796,7 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin25">
+	<Style id="sh_ylw-pushpin26">
 		<IconStyle>
 			<scale>1.2</scale>
 		</IconStyle>
@@ -10548,7 +10860,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl00005">
+	<Style id="s_ylw-pushpin_hl000013">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -10650,7 +10962,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin17">
+	<Style id="sn_ylw-pushpin18">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -10815,7 +11127,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="s_ylw-pushpin1004">
+	<Style id="s_ylw-pushpin10011">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -10851,7 +11163,7 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin18">
+	<Style id="sn_ylw-pushpin19">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -10999,7 +11311,7 @@
 			<styleUrl>#sh_info_circle</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="s_ylw-pushpin1005">
+	<Style id="s_ylw-pushpin10012">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -11011,14 +11323,14 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin19">
+	<StyleMap id="msn_ylw-pushpin24">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_ylw-pushpin3</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin28</styleUrl>
+			<styleUrl>#sh_ylw-pushpin29</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_bus210">
@@ -11061,14 +11373,14 @@
 			<styleUrl>#sh_firedept20</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin24">
+	<StyleMap id="msn_ylw-pushpin25">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin23</styleUrl>
+			<styleUrl>#sn_ylw-pushpin24</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin25</styleUrl>
+			<styleUrl>#sh_ylw-pushpin26</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sh_man2">
@@ -11217,7 +11529,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin19">
+	<Style id="sn_ylw-pushpin22">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -11263,10 +11575,10 @@
 			<styleUrl>#s_ylw-pushpin_hl6</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin25">
+	<StyleMap id="msn_ylw-pushpin26">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin15</styleUrl>
+			<styleUrl>#sn_ylw-pushpin16</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -11431,7 +11743,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin26">
+	<Style id="sh_ylw-pushpin27">
 		<IconStyle>
 			<scale>0.590909</scale>
 			<Icon>
@@ -11445,14 +11757,14 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin26">
+	<StyleMap id="msn_ylw-pushpin27">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_ylw-pushpin61</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin22</styleUrl>
+			<styleUrl>#sh_ylw-pushpin23</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sn_firedept17">
@@ -11501,7 +11813,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin22">
+	<Style id="sn_ylw-pushpin23">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -11572,14 +11884,14 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin27">
+	<StyleMap id="msn_ylw-pushpin28">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin16</styleUrl>
+			<styleUrl>#sn_ylw-pushpin17</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin27</styleUrl>
+			<styleUrl>#sh_ylw-pushpin28</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_truck26">
@@ -11844,6 +12156,20 @@
 			<width>3</width>
 		</LineStyle>
 	</Style>
+	<Style id="s_ylw-pushpin10013">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<StyleMap id="m_ylw-pushpin80">
 		<Pair>
 			<key>normal</key>
@@ -11854,7 +12180,7 @@
 			<styleUrl>#s_ylw-pushpin_hl90</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_ylw-pushpin27">
+	<Style id="sh_ylw-pushpin28">
 		<IconStyle>
 			<scale>0.590909</scale>
 			<Icon>
@@ -11868,10 +12194,10 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin00005">
+	<StyleMap id="m_ylw-pushpin000012">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin1004</styleUrl>
+			<styleUrl>#s_ylw-pushpin10011</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -11890,7 +12216,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin28">
+	<Style id="sh_ylw-pushpin29">
 		<IconStyle>
 			<scale>0.590909</scale>
 			<Icon>
@@ -11991,7 +12317,17 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin23">
+	<StyleMap id="m_ylw-pushpin000013">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin1009</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl000011</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin24">
 		<LineStyle>
 			<color>ff7fffff</color>
 			<width>3</width>
@@ -24099,6 +24435,48 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 						<coordinates>37.75867129415428,47.7263842421027,0</coordinates>
 					</Point>
 				</Placemark>
+				<Placemark>
+					<name>UAV ops</name>
+					<description><![CDATA[<a href="https://informnapalm.org/en/russian-drones-in-service-of-donetsk-militants/">https://informnapalm.org/en/russian-drones-in-service-of-donetsk-militants/</a>]]></description>
+					<LookAt>
+						<longitude>37.66300200469313</longitude>
+						<latitude>47.84484830249691</latitude>
+						<altitude>0</altitude>
+						<heading>0.5864975753045718</heading>
+						<tilt>0</tilt>
+						<range>287.5768502106293</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin000013</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.66300200469313,47.84484830249691,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Base</name>
+					<LookAt>
+						<gx:TimeStamp><when>2015-07-09</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>37.64549817861794</longitude>
+						<latitude>47.82754289288274</latitude>
+						<altitude>0</altitude>
+						<heading>0.578688506923602</heading>
+						<tilt>0</tilt>
+						<range>425.580486099029</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00006</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>37.64549817861794,47.82754289288275,0</coordinates>
+					</Point>
+				</Placemark>
 			</Folder>
 		</Folder>
 		<Folder>
@@ -26155,6 +26533,23 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<coordinates>37.87346444822209,47.18752675413344,0</coordinates>
 				</Point>
 			</Placemark>
+			<Placemark>
+				<name>Firing Position</name>
+				<LookAt>
+					<longitude>37.67256447794416</longitude>
+					<latitude>47.87869409101997</latitude>
+					<altitude>0</altitude>
+					<heading>0.5276232084452168</heading>
+					<tilt>0</tilt>
+					<range>470.9828380338067</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00003</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.67246839212294,47.87854975153109,0</coordinates>
+				</Point>
+			</Placemark>
 		</Folder>
 		<Folder>
 			<name>Fortifications</name>
@@ -26176,7 +26571,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<range>401.0413620415204</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin19</styleUrl>
+				<styleUrl>#msn_ylw-pushpin24</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.86824952615346,47.2293489156752,0</coordinates>
@@ -26880,7 +27275,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 				</LineString>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#msn_ylw-pushpin24</styleUrl>
+				<styleUrl>#msn_ylw-pushpin25</styleUrl>
 				<ExtendedData>
 				</ExtendedData>
 				<LineString>
@@ -26890,7 +27285,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 				</LineString>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#msn_ylw-pushpin24</styleUrl>
+				<styleUrl>#msn_ylw-pushpin25</styleUrl>
 				<ExtendedData>
 				</ExtendedData>
 				<LineString>
@@ -26900,7 +27295,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 				</LineString>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#msn_ylw-pushpin24</styleUrl>
+				<styleUrl>#msn_ylw-pushpin25</styleUrl>
 				<ExtendedData>
 				</ExtendedData>
 				<LineString>
@@ -26921,7 +27316,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<range>758.4759398032286</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin18</styleUrl>
+				<styleUrl>#msn_ylw-pushpin19</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.89976915197124,47.62316902829929,0</coordinates>
@@ -26975,7 +27370,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<range>588.0957938728998</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin00003</styleUrl>
+				<styleUrl>#m_ylw-pushpin000010</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.63870858584557,47.95515105105332,0</coordinates>
@@ -26993,7 +27388,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<range>526.3627694922659</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin00003</styleUrl>
+				<styleUrl>#m_ylw-pushpin000010</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.65987676289038,47.97163837826861,0</coordinates>
@@ -27011,7 +27406,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<range>1040.049102520504</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin00003</styleUrl>
+				<styleUrl>#m_ylw-pushpin000010</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.67481561046501,47.97560079102497,0</coordinates>
@@ -27029,7 +27424,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<range>318.3876972383355</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin00003</styleUrl>
+				<styleUrl>#m_ylw-pushpin000010</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.64301434112795,47.97673430440639,0</coordinates>
@@ -27047,7 +27442,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<range>597.4935764019735</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin00003</styleUrl>
+				<styleUrl>#m_ylw-pushpin000010</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.633561085355,48.00385049356988,0</coordinates>
@@ -27064,7 +27459,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<range>352.611447719514</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin00003</styleUrl>
+				<styleUrl>#m_ylw-pushpin000010</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.6330908139197,48.00786321456585,0</coordinates>
@@ -27081,7 +27476,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<range>476.660209282799</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin00003</styleUrl>
+				<styleUrl>#m_ylw-pushpin000010</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.74559470439026,47.98538147009917,0</coordinates>
@@ -27098,7 +27493,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<range>213.3218772142955</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin00003</styleUrl>
+				<styleUrl>#m_ylw-pushpin000010</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.73586094938377,47.98658899053658,0</coordinates>
@@ -27115,7 +27510,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<range>202.0401801099958</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin00003</styleUrl>
+				<styleUrl>#m_ylw-pushpin000010</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.7431867372282,47.98179135367725,0</coordinates>
@@ -27132,7 +27527,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<range>648.3815518223981</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin00003</styleUrl>
+				<styleUrl>#m_ylw-pushpin000010</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.5953496554845,48.01114553149783,0</coordinates>
@@ -27149,7 +27544,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<range>451.7411459324968</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin00003</styleUrl>
+				<styleUrl>#m_ylw-pushpin000010</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.58898875624094,48.01117329441808,0</coordinates>
@@ -27166,7 +27561,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<range>278.8259042329389</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin00003</styleUrl>
+				<styleUrl>#m_ylw-pushpin000010</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.88547056510971,48.00729420444634,0</coordinates>
@@ -27184,7 +27579,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<range>490.9272032114417</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin00003</styleUrl>
+				<styleUrl>#m_ylw-pushpin000010</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.85772667106691,48.10933886553204,0</coordinates>
@@ -27201,7 +27596,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<range>550.8355921606785</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin00003</styleUrl>
+				<styleUrl>#m_ylw-pushpin000010</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.84840191323806,47.10843662786183,0</coordinates>
@@ -27218,7 +27613,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<range>555.4778953228873</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin00003</styleUrl>
+				<styleUrl>#m_ylw-pushpin000010</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.85230035634015,47.10848380201619,0</coordinates>
@@ -27242,7 +27637,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<range>603.5711220084622</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin00005</styleUrl>
+				<styleUrl>#m_ylw-pushpin000012</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.8503818780313,47.11969051867902,0</coordinates>
@@ -27259,7 +27654,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<range>651.1730509549328</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin00003</styleUrl>
+				<styleUrl>#m_ylw-pushpin000010</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>38.02951667341161,47.10572292490124,0</coordinates>
@@ -27276,7 +27671,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<range>193.2546099674284</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin00003</styleUrl>
+				<styleUrl>#m_ylw-pushpin000010</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>38.03933218272809,47.11073208782668,0</coordinates>
@@ -27300,7 +27695,7 @@ Discussion: <a href="https://twitter.com/Ars_Faivre/status/853358096445579265">h
 					<range>311.2091422781389</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin00003</styleUrl>
+				<styleUrl>#m_ylw-pushpin000010</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.90204269786452,48.07555472623708,0</coordinates>
@@ -28126,7 +28521,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>209.3159257204951</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin16</styleUrl>
+				<styleUrl>#msn_ylw-pushpin17</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>38.46535870873475,48.58045313333695,0</coordinates>
@@ -28827,7 +29222,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>547.1189832306093</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin26</styleUrl>
+				<styleUrl>#msn_ylw-pushpin27</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.9412110443958,47.5121350678638,0</coordinates>
@@ -28844,7 +29239,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>253.1264724500207</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin25</styleUrl>
+				<styleUrl>#msn_ylw-pushpin26</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.85069177280658,47.26911918012014,0</coordinates>
@@ -28861,7 +29256,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>344.8317101429354</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin25</styleUrl>
+				<styleUrl>#msn_ylw-pushpin26</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.86196588088255,47.2672598922898,0</coordinates>
@@ -28878,7 +29273,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>251.4087471968018</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin25</styleUrl>
+				<styleUrl>#msn_ylw-pushpin26</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.84959709717658,47.26326305464477,0</coordinates>
@@ -28895,7 +29290,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>250.9669676353482</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin25</styleUrl>
+				<styleUrl>#msn_ylw-pushpin26</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.84596833877306,47.25884288508005,0</coordinates>
@@ -28912,7 +29307,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>309.5380559229408</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin25</styleUrl>
+				<styleUrl>#msn_ylw-pushpin26</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.84419922467058,47.28388838278745,0</coordinates>
@@ -28929,7 +29324,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>250.0047701267072</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin25</styleUrl>
+				<styleUrl>#msn_ylw-pushpin26</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.84448258443907,47.28861663086119,0</coordinates>
@@ -28946,7 +29341,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>250.022933943779</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin25</styleUrl>
+				<styleUrl>#msn_ylw-pushpin26</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.81997758762736,47.29322488591434,0</coordinates>
@@ -28963,7 +29358,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>412.5506011938783</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin25</styleUrl>
+				<styleUrl>#msn_ylw-pushpin26</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.85538633698943,47.33292798496557,0</coordinates>
@@ -28981,7 +29376,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>623.8848009919772</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin25</styleUrl>
+				<styleUrl>#msn_ylw-pushpin26</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>38.89532587998213,48.72474740060695,0</coordinates>
@@ -28999,7 +29394,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>1000.000000000523</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin25</styleUrl>
+				<styleUrl>#msn_ylw-pushpin26</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>38.89187900000003,48.73990600000001,0</coordinates>
@@ -29017,7 +29412,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>412.5594332358067</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin25</styleUrl>
+				<styleUrl>#msn_ylw-pushpin26</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>38.84732815104671,48.74669371606993,0</coordinates>
@@ -29035,7 +29430,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>258.4229655530266</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin25</styleUrl>
+				<styleUrl>#msn_ylw-pushpin26</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>38.84366211766584,48.73957695584338,0</coordinates>
@@ -29053,7 +29448,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>844.1581141361132</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin27</styleUrl>
+				<styleUrl>#msn_ylw-pushpin28</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>38.05455554386077,47.40974519945467,0</coordinates>
@@ -29071,7 +29466,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>844.1581141330971</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin27</styleUrl>
+				<styleUrl>#msn_ylw-pushpin28</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>38.06491896827193,47.40892398561812,0</coordinates>
@@ -29089,7 +29484,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>275.0379712008112</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin27</styleUrl>
+				<styleUrl>#msn_ylw-pushpin28</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>38.06262564901519,47.41445971183678,0</coordinates>
@@ -29106,7 +29501,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>368.9572805903436</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin14</styleUrl>
+				<styleUrl>#msn_ylw-pushpin15</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.54948105825132,47.92248155818218,0</coordinates>
@@ -29123,7 +29518,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>130.9428208671241</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin14</styleUrl>
+				<styleUrl>#msn_ylw-pushpin15</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.57399132327615,47.9090094444686,0</coordinates>
@@ -29140,7 +29535,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>130.9428208656651</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin14</styleUrl>
+				<styleUrl>#msn_ylw-pushpin15</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.57422895180327,47.90827575821895,0</coordinates>
@@ -29211,7 +29606,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>308.5509974393031</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin14</styleUrl>
+				<styleUrl>#msn_ylw-pushpin15</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.62906707473406,47.79984601242968,0</coordinates>
@@ -29228,7 +29623,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>180.8506079326479</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin10</styleUrl>
+				<styleUrl>#msn_ylw-pushpin12</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.64033216072445,47.77209631431187,0</coordinates>
@@ -29246,7 +29641,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>445.8246514610893</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin5</styleUrl>
+				<styleUrl>#msn_ylw-pushpin8</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.68260053933446,47.70510637600809,0</coordinates>
@@ -29264,7 +29659,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>445.824651459332</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin5</styleUrl>
+				<styleUrl>#msn_ylw-pushpin8</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.68364780311084,47.69829233601871,0</coordinates>
@@ -29282,7 +29677,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>1075.36196155678</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin5</styleUrl>
+				<styleUrl>#msn_ylw-pushpin8</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.74503558317402,47.68725032791145,0</coordinates>
@@ -29299,7 +29694,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>911.248886768225</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin13</styleUrl>
+				<styleUrl>#msn_ylw-pushpin14</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.80778858109976,47.70508094537946,0</coordinates>
@@ -29317,7 +29712,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>1317.988493027746</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin13</styleUrl>
+				<styleUrl>#msn_ylw-pushpin14</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.7797209402876,47.67797706610767,0</coordinates>
@@ -29334,7 +29729,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>1317.988493031003</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin13</styleUrl>
+				<styleUrl>#msn_ylw-pushpin14</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.84776723528852,47.67349126930845,0</coordinates>
@@ -29351,7 +29746,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>559.9301513506864</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin13</styleUrl>
+				<styleUrl>#msn_ylw-pushpin14</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.83306863648576,47.65453128850906,0</coordinates>
@@ -29369,7 +29764,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>559.9301513492599</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin13</styleUrl>
+				<styleUrl>#msn_ylw-pushpin14</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.83339562234733,47.65829322033014,0</coordinates>
@@ -29386,7 +29781,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>559.930151348859</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin13</styleUrl>
+				<styleUrl>#msn_ylw-pushpin14</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.83431861254498,47.64147974062498,0</coordinates>
@@ -29403,7 +29798,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>1066.906073274963</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin9</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.82846746050444,47.62873387229542,0</coordinates>
@@ -29420,7 +29815,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>1066.906073275128</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin9</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.82219654665177,47.63414062301042,0</coordinates>
@@ -29437,7 +29832,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>1319.064855077941</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin9</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.8327870323963,47.62930977024364,0</coordinates>
@@ -29454,7 +29849,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>1319.064855076386</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin9</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.8437839878985,47.62808864702918,0</coordinates>
@@ -29471,7 +29866,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>1319.064855075306</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin9</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.84788098934796,47.6292950310445,0</coordinates>
@@ -29488,7 +29883,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>368.0600049788732</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin9</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.83226839088458,47.61629495534509,0</coordinates>
@@ -29506,7 +29901,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>433.47390991214</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin9</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.88567005925867,47.58371923151295,0</coordinates>
@@ -29524,7 +29919,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>494.0258236029417</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin9</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.89200734628326,47.56885909299446,0</coordinates>
@@ -29542,7 +29937,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>537.0090155845279</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin9</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.89245150055506,47.55917867072382,0</coordinates>
@@ -29559,7 +29954,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>433.4739099090688</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin9</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.88401284087635,47.57691785544962,0</coordinates>
@@ -29576,7 +29971,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>759.108065609789</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin14</styleUrl>
+				<styleUrl>#msn_ylw-pushpin15</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.56517720212744,47.91537452552387,0</coordinates>
@@ -29593,7 +29988,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>303.8706861151445</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin14</styleUrl>
+				<styleUrl>#msn_ylw-pushpin15</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.58928221833653,47.89665704859337,0</coordinates>
@@ -29619,7 +30014,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>433.4739099109198</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin9</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.87033606099089,47.57844889604787,0</coordinates>
@@ -29645,7 +30040,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>759.1080656102705</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin14</styleUrl>
+				<styleUrl>#msn_ylw-pushpin15</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.59390326935196,47.88727376446973,0</coordinates>
@@ -29662,7 +30057,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>759.1080656124277</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin14</styleUrl>
+				<styleUrl>#msn_ylw-pushpin15</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.59755597675733,47.87854735865062,0</coordinates>
@@ -29679,7 +30074,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>759.1080656095764</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin14</styleUrl>
+				<styleUrl>#msn_ylw-pushpin15</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.57235643854528,47.91376359026702,0</coordinates>
@@ -29714,7 +30109,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>609.7237036588716</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin14</styleUrl>
+				<styleUrl>#msn_ylw-pushpin15</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.60150471430076,47.869902637039,0</coordinates>
@@ -29740,14 +30135,14 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>1213.797765528964</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin14</styleUrl>
+				<styleUrl>#msn_ylw-pushpin15</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.60897269242762,47.8691006579971,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#msn_ylw-pushpin24</styleUrl>
+				<styleUrl>#msn_ylw-pushpin25</styleUrl>
 				<ExtendedData>
 				</ExtendedData>
 				<LineString>
@@ -29767,7 +30162,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>609.723703657483</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin14</styleUrl>
+				<styleUrl>#msn_ylw-pushpin15</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.60432037192486,47.86428797650412,0</coordinates>
@@ -29791,7 +30186,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>299.8667729005585</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin18</styleUrl>
+				<styleUrl>#msn_ylw-pushpin19</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.8623258968049,47.58216499677755,0</coordinates>
@@ -29809,7 +30204,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>486.8606131011572</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin18</styleUrl>
+				<styleUrl>#msn_ylw-pushpin19</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.85524259036879,47.57810904478797,0</coordinates>
@@ -29827,7 +30222,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>640.1936016720662</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin18</styleUrl>
+				<styleUrl>#msn_ylw-pushpin19</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.87730762792659,47.55625402992853,0</coordinates>
@@ -29855,7 +30250,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>669.2384623345158</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin18</styleUrl>
+				<styleUrl>#msn_ylw-pushpin19</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.9115416580776,47.54625584794287,0</coordinates>
@@ -29872,7 +30267,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>1018.243749280978</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin18</styleUrl>
+				<styleUrl>#msn_ylw-pushpin19</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.94967347703833,47.57415076608459,0</coordinates>
@@ -29889,7 +30284,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>570.4810601155152</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin18</styleUrl>
+				<styleUrl>#msn_ylw-pushpin19</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.94446908407122,47.59611566656788,0</coordinates>
@@ -29907,7 +30302,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>1908.338775142203</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin18</styleUrl>
+				<styleUrl>#msn_ylw-pushpin19</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.91138333350266,47.63654192564069,0</coordinates>
@@ -29924,7 +30319,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>413.0014446104282</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin18</styleUrl>
+				<styleUrl>#msn_ylw-pushpin19</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.95700756157417,47.62634815690134,0</coordinates>
@@ -29941,7 +30336,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>832.7679984622674</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin18</styleUrl>
+				<styleUrl>#msn_ylw-pushpin19</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.97400219006634,47.6147130403908,0</coordinates>
@@ -30126,7 +30521,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>291.8386741279958</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin12</styleUrl>
+				<styleUrl>#msn_ylw-pushpin13</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.89830627585433,47.53471659005292,0</coordinates>
@@ -30150,7 +30545,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>395.664794105364</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin12</styleUrl>
+				<styleUrl>#msn_ylw-pushpin13</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.91155742635839,47.52607972771945,0</coordinates>
@@ -30168,7 +30563,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>395.6647941043437</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin15</styleUrl>
+				<styleUrl>#msn_ylw-pushpin16</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.9089815371193,47.52355497630672,0</coordinates>
@@ -30186,7 +30581,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>999.999999998876</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin15</styleUrl>
+				<styleUrl>#msn_ylw-pushpin16</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.95309700000001,47.46949400000001,0</coordinates>
@@ -30210,7 +30605,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>1103.574731505935</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin8</styleUrl>
+				<styleUrl>#msn_ylw-pushpin9</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.90745395626665,47.72939608288936,0</coordinates>
@@ -30234,7 +30629,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>1103.574731505725</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin8</styleUrl>
+				<styleUrl>#msn_ylw-pushpin9</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.91438025167329,47.72202489213228,0</coordinates>
@@ -30258,7 +30653,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>1103.574731506106</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin8</styleUrl>
+				<styleUrl>#msn_ylw-pushpin9</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.89687316910908,47.74587193802945,0</coordinates>
@@ -30282,7 +30677,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>575.9681862982184</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin8</styleUrl>
+				<styleUrl>#msn_ylw-pushpin9</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.87640389849508,47.7825537212837,0</coordinates>
@@ -30306,7 +30701,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>805.6808175651315</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin8</styleUrl>
+				<styleUrl>#msn_ylw-pushpin9</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.85315108090954,47.77648406562914,0</coordinates>
@@ -30330,7 +30725,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>608.2151346756698</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin8</styleUrl>
+				<styleUrl>#msn_ylw-pushpin9</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.82914527421129,47.77793439396596,0</coordinates>
@@ -30364,7 +30759,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>608.2151346785928</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin8</styleUrl>
+				<styleUrl>#msn_ylw-pushpin9</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.82252923793931,47.77244913787433,0</coordinates>
@@ -31349,7 +31744,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>1098.16528863546</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin17</styleUrl>
+				<styleUrl>#msn_ylw-pushpin18</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.93677829696824,47.29860407619909,0</coordinates>
@@ -31373,7 +31768,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>1098.16528863437</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin17</styleUrl>
+				<styleUrl>#msn_ylw-pushpin18</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.95393821285944,47.30804583706489,0</coordinates>
@@ -31397,7 +31792,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>808.0666475632145</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin17</styleUrl>
+				<styleUrl>#msn_ylw-pushpin18</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.92175231070442,47.27321916863089,0</coordinates>
@@ -31421,7 +31816,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>538.8563953439823</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin17</styleUrl>
+				<styleUrl>#msn_ylw-pushpin18</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.91041357646621,47.28538571338734,0</coordinates>
@@ -31445,7 +31840,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>423.4865102514112</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin17</styleUrl>
+				<styleUrl>#msn_ylw-pushpin18</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.91158558146228,47.28796646907176,0</coordinates>
@@ -31469,7 +31864,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>293.1681516122748</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin17</styleUrl>
+				<styleUrl>#msn_ylw-pushpin18</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.85826854527349,47.28579105773755,0</coordinates>
@@ -31493,7 +31888,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>202.8749091738082</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin17</styleUrl>
+				<styleUrl>#msn_ylw-pushpin18</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.83174276426293,47.28333693314291,0</coordinates>
@@ -31517,7 +31912,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>445.7313879593386</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin17</styleUrl>
+				<styleUrl>#msn_ylw-pushpin18</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.85515661041159,47.23948507264497,0</coordinates>
@@ -31541,7 +31936,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>296.5784698633323</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin17</styleUrl>
+				<styleUrl>#msn_ylw-pushpin18</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.87064068476921,47.24141176710428,0</coordinates>
@@ -31565,7 +31960,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>401.0413620418897</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin19</styleUrl>
+				<styleUrl>#msn_ylw-pushpin24</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.87385543580814,47.23057569651783,0</coordinates>
@@ -31589,7 +31984,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>301.5852645182262</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin19</styleUrl>
+				<styleUrl>#msn_ylw-pushpin24</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.87836171261668,47.22942916012758,0</coordinates>
@@ -32069,7 +32464,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>371.9034118191658</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin00001</styleUrl>
+				<styleUrl>#m_ylw-pushpin00008</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.84987518752231,47.19842112229447,0</coordinates>
@@ -32093,7 +32488,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>332.5261902048498</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0000</styleUrl>
+				<styleUrl>#m_ylw-pushpin00002</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.85266941057253,47.23657689166592,0</coordinates>
@@ -32110,7 +32505,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>510.5770438328204</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin00004</styleUrl>
+				<styleUrl>#m_ylw-pushpin000011</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>37.94139680010823,47.38799054708803,0</coordinates>
@@ -32127,7 +32522,7 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>338.061806837194</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin00000</styleUrl>
+				<styleUrl>#m_ylw-pushpin00007</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>38.14789895311741,48.4142088073339,0</coordinates>
@@ -32144,11 +32539,286 @@ courtesy <a href="https://twitter.com/5urpher">https://twitter.com/5urpher</a>]]
 					<range>285.1844811403812</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin00002</styleUrl>
+				<styleUrl>#m_ylw-pushpin00009</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>38.13259158586962,48.41621970020123,0</coordinates>
 				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Fortified Position</name>
+				<LookAt>
+					<longitude>37.66979784647712</longitude>
+					<latitude>47.88129656815303</latitude>
+					<altitude>0</altitude>
+					<heading>0.5255710778664325</heading>
+					<tilt>0</tilt>
+					<range>470.9828380308014</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00005</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.67057632527386,47.88087567816711,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#msn_ylw-pushpin5</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						37.66906589409577,47.88257273812808,0 37.66875138572941,47.88251389233391,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#msn_ylw-pushpin5</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						37.66875004505953,47.88241572008442,0 37.66879583847203,47.88219570157599,0 37.66898033972371,47.88192340312639,0 37.66923550210815,47.88172079890394,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#msn_ylw-pushpin5</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						37.66995992347688,47.880150131094,0 37.6692248481387,47.87992088934886,0 37.66805128927182,47.87974108749103,0 37.66795198318698,47.87961546473854,0 37.66802034654545,47.87951686468966,0 37.66821500317471,47.87947826792744,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#msn_ylw-pushpin5</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						37.66825259797373,47.88665393002981,0 37.66747578965394,47.88667702582126,0 37.66638177516425,47.88643693299436,0 37.66560564379665,47.88750229491762,0 37.66575749215631,47.88763849975896,0 37.66557328178417,47.88812420679263,0 37.66839052058166,47.88874676888482,0 37.66906951641404,47.88953797976501,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Fortified Position</name>
+				<LookAt>
+					<longitude>37.66842916324134</longitude>
+					<latitude>47.88808825023193</latitude>
+					<altitude>0</altitude>
+					<heading>0.5296832373638362</heading>
+					<tilt>0</tilt>
+					<range>921.0349338371229</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.66842916324134,47.88808825023192,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#msn_ylw-pushpin5</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						37.67803504490286,47.87513760513549,0 37.67818340231805,47.87404867658084,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Fortified Position</name>
+				<LookAt>
+					<longitude>37.67771686543862</longitude>
+					<latitude>47.87333847875311</latitude>
+					<altitude>0</altitude>
+					<heading>0.5365724647905785</heading>
+					<tilt>0</tilt>
+					<range>921.0349338416066</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.67771686543862,47.87333847875311,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin5</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						37.67858959181387,47.87385413036647,0 37.6786241355132,47.87437505135056,0 37.67998655714818,47.87432990500273,0 37.68006167272008,47.87385400634894,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#msn_ylw-pushpin5</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						37.68134308454217,47.87386421101906,0 37.68075612483195,47.87380391454498,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#msn_ylw-pushpin5</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						37.67742800563298,47.87168544988224,0 37.67844882818683,47.87353501894556,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Fortified Position</name>
+				<LookAt>
+					<longitude>37.6856824349213</longitude>
+					<latitude>47.85141884473166</latitude>
+					<altitude>0</altitude>
+					<heading>0.5873501098942643</heading>
+					<tilt>0</tilt>
+					<range>664.8377772449512</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00001</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>37.68382264525491,47.85102904480802,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#msn_ylw-pushpin5</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						37.68325411475669,47.85179850608918,0 37.68383610000282,47.85126654015865,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#msn_ylw-pushpin5</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						37.68414615008129,47.85096082780022,0 37.68451328438263,47.8505293288246,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Fortified Position</name>
+				<LookAt>
+					<longitude>38.15045672428904</longitude>
+					<latitude>48.40345377498179</latitude>
+					<altitude>0</altitude>
+					<heading>1.492080993344362</heading>
+					<tilt>0</tilt>
+					<range>853.6665701940102</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin00004</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>38.15045672428904,48.40345377498179,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#msn_ylw-pushpin5</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						38.15033874845211,48.40126039101001,0 38.15086685268716,48.40137840723229,0 38.15115806407533,48.40196672877882,0 38.15122140214017,48.4022792646664,0 38.15208745567996,48.40287458877347,0 38.15340466256273,48.40292807361308,0 38.15402510457781,48.4031207645076,0 38.15413517214999,48.40332229522338,0 38.15406494174412,48.40348456655394,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#msn_ylw-pushpin5</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						38.15057446850064,48.40206158796625,0 38.15093750242041,48.40187730206151,0 38.15117115564641,48.4019749787826,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#msn_ylw-pushpin5</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						38.15125743496568,48.40287199780254,0 38.15168194022882,48.40262731064011,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#msn_ylw-pushpin5</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						38.15317721117084,48.40331345660103,0 38.15338114079201,48.40297934017279,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#msn_ylw-pushpin5</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						38.14878660325623,48.41311141334248,0 38.14874310603376,48.41354617102176,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#msn_ylw-pushpin5</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						38.14937327760762,48.41355939466429,0 38.14926159133935,48.4141078502919,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#msn_ylw-pushpin5</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						38.14610645009176,48.41362383447683,0 38.1473595887763,48.41408443839419,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#msn_ylw-pushpin5</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						38.14732325612422,48.41346620611976,0 38.14744915529299,48.41389803825967,0 38.14795486126958,48.41382501021744,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#msn_ylw-pushpin5</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						38.13235527306254,48.41622290198602,0 38.13230497439657,48.41606432565356,0 38.1326358406702,48.4160000787762,0 38.13307643088763,48.41610965638413,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#msn_ylw-pushpin5</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						38.13260365880417,48.41592904611267,0 38.13251007244337,48.4155401889153,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#msn_ylw-pushpin5</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						38.13246154701677,48.41542713645334,0 38.13240909544767,48.41521328140967,0 
+					</coordinates>
+				</LineString>
 			</Placemark>
 		</Folder>
 		<Folder>
