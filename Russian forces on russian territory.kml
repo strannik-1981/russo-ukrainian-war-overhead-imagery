@@ -2,11 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Russian forces on russian territory.kml</name>
-	<Style id="sh_earthquake">
+	<Style id="sh_truck43">
 		<IconStyle>
 			<scale>0.590909</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/earthquake.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -14,17 +14,17 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="msn_truck02">
+	<StyleMap id="msn_firedept24">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_truck16</styleUrl>
+			<styleUrl>#sn_firedept13</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_truck14</styleUrl>
+			<styleUrl>#sh_firedept28</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_bus24">
+	<Style id="sn_bus1">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -36,216 +36,14 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="msn_bus27">
+	<StyleMap id="msn_track2">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_bus24</styleUrl>
+			<styleUrl>#sn_track10</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_bus</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_track00">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/track.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sh_track0">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/track.png</href>
-			</Icon>
-			<hotSpot x="32" y="32" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl0">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sh_airports1">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<StyleMap id="msn_truck1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_truck4</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_truck35</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_bus">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<StyleMap id="msn_track">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_track</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_track00</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_bus6">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_bus0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_bus3</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_bus82">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<StyleMap id="msn_bus61">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_bus111</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_bus1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_truck8">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sh_truck28">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<StyleMap id="msn_bus53">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_bus11</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_bus21</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_bus12">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_bus011</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_bus32</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_heliport">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/heliport.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sh_truck53">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<StyleMap id="msn_bus19">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_bus17</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_bus82</styleUrl>
+			<styleUrl>#sh_track0</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sh_bus10">
@@ -260,39 +58,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="msn_track0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_track00</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_track</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_firedept">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<StyleMap id="msn_firedept25">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_firedept112</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_firedept02</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_truck16">
+	<Style id="sn_truck19">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -304,11 +70,11 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sh_heliport0">
+	<Style id="sn_truck42">
 		<IconStyle>
-			<scale>0.590909</scale>
+			<scale>0.5</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/heliport.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -316,21 +82,21 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="msn_heliport0">
+	<StyleMap id="msn_truck3">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_heliport</styleUrl>
+			<styleUrl>#sn_truck0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_heliport0</styleUrl>
+			<styleUrl>#sh_truck</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_firedept9">
+	<Style id="sn_earthquake0">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/earthquake.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -338,7 +104,73 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sh_firedept02">
+	<StyleMap id="msn_firedept02">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_firedept9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_firedept29</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_truck005">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_bus3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bus26</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bus54</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_bus3">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_bus0">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin25">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin03</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl02</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_firedept113">
 		<IconStyle>
 			<scale>0.590909</scale>
 			<Icon>
@@ -362,137 +194,11 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="msn_truck0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_truck27</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_truck8</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_bus72">
+	<Style id="sn_shopping0">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sn_truck">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_truck15">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sh_truck35">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<StyleMap id="msn_earthquake0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_earthquake0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_earthquake</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_track1">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/track.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sh_truck27">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin9</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin16</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_firedept1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_firedept26</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_firedept1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_truck29">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sn_earthquake0">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/earthquake.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -512,9 +218,31 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_truck28">
+	<StyleMap id="msn_bus12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bus011</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bus32</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_airports">
 		<IconStyle>
 			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_truck270">
+		<IconStyle>
+			<scale>0.590909</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
 			</Icon>
@@ -524,41 +252,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="msn_truck">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_truck9</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_truck53</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin0">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sh_bus33">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sh_bus25">
+	<Style id="sh_bus24">
 		<IconStyle>
 			<scale>0.590909</scale>
 			<Icon>
@@ -582,7 +276,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sh_truck5">
+	<Style id="sh_truck8">
 		<IconStyle>
 			<scale>0.590909</scale>
 			<Icon>
@@ -594,31 +288,27 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin7">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="s_ylw-pushpin">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sh_bus1">
+	<StyleMap id="msn_shopping4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_shopping0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_shopping4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_truck">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_truck1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_truck36</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_bus03">
 		<IconStyle>
 			<scale>0.590909</scale>
 			<Icon>
@@ -630,17 +320,53 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="msn_bus11">
+	<Style id="sh_bus82">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_earthquake">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/earthquake.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_firedept2">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_bus8</styleUrl>
+			<styleUrl>#sn_firedept82</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_bus25</styleUrl>
+			<styleUrl>#sh_firedept7</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_truck110">
+	<Style id="sn_ylw-pushpin9">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_truck53">
 		<IconStyle>
 			<scale>0.590909</scale>
 			<Icon>
@@ -652,19 +378,201 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="msn_shopping2">
+	<Style id="sn_police">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/police.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_bus01">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_shopping0</styleUrl>
+			<styleUrl>#sn_bus1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_shopping3</styleUrl>
+			<styleUrl>#sh_bus24</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_ylw-pushpin4">
+	<Style id="sh_airports0">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_bus16">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bus72</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bus4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_truck20">
 		<IconStyle>
 			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_truck05">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_truck27">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_truck13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_truck26</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_truck29</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_bus28">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_bus25">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_bus2">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_heliport">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/heliport.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_firedept02">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_truck27">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_truck42</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_truck43</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_heliport">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_heliport</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_heliport</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_track10">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/track.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_truck73">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_truck04</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_truck06</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin73">
+		<IconStyle>
+			<scale>0.590909</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -686,19 +594,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_bus28">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sh_truck3">
+	<Style id="sh_truck14">
 		<IconStyle>
 			<scale>0.590909</scale>
 			<Icon>
@@ -710,19 +606,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sh_truck">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sn_bus26">
+	<Style id="sn_bus">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -734,11 +618,11 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_shopping">
+	<Style id="sn_bus11">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -746,21 +630,45 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="msn_firedept2">
+	<Style id="sn_track1">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/track.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_firedept0">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_airports">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_firedept8</styleUrl>
+			<styleUrl>#sn_airports</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_firedept7</styleUrl>
+			<styleUrl>#sh_airports</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_truck30">
+	<Style id="sh_firedept7">
 		<IconStyle>
 			<scale>0.590909</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -780,11 +688,11 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_bus8">
+	<Style id="sn_truck04">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -792,9 +700,19 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_truck2">
+	<StyleMap id="msn_firedept1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_firedept26</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_firedept113</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_truck142">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>0.590909</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
 			</Icon>
@@ -816,7 +734,587 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
+	<Style id="s_ylw-pushpin_hl02">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_truck4">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_truck64">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_truck17">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_truck0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_truck0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_bus7">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_truck12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_truck4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_truck35</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_firedept7">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_police3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_police</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_police3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_heliport">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/heliport.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_truck92">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_truck18</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_truck3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_bus25">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_truck1">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_bus26">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_bus17">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_truck22">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_truck05</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_truck28</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_truck47">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_truck19</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_truck16</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_bus11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bus8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bus25</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_airports1">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_truck6">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
 	<Style id="sn_truck53">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin16</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_firedept6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_firedept02</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_firedept8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_firedept26">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_bus0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bus</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bus14</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_truck81">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_bus4">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_truck4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_truck9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_truck53</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_truck36">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin16">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_truck26">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_bus20">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="s_ylw-pushpin3">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_truck16">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_airports0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_airports0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_airports0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_truck54">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin01">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_shopping4">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_bus32">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_truck5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_truck20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_truck14</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_firedept8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_firedept15</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_firedept04</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_bus111">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_truck28">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_bus27">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bus24</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bus0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_track1">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/track.png</href>
+			</Icon>
+			<hotSpot x="32" y="32" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_bus21">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_bus33">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_shopping3">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_bus14">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_bus72">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_bus33">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bus25</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bus10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin4">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_truck152">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -840,7 +1338,119 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_truck0">
+	<StyleMap id="msn_track0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_track1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_track2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_airports1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_airports00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_airports1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_bus61">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bus111</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bus1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_bus1">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_truck15">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_truck6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_truck4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_airports0">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_truck29">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_truck110">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_truck">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl1">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_truck13">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -852,11 +1462,21 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_bus25">
+	<StyleMap id="msn_earthquake0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_earthquake0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_earthquake</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_truck28">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>0.590909</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -864,11 +1484,11 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_airports">
+	<Style id="sh_truck16">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>0.590909</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -888,41 +1508,23 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="msn_truck2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_truck</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_truck0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin03</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_firedept6">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_firedept0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_firedept8</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_heliport">
+	<Style id="sh_firedept28">
 		<IconStyle>
 			<scale>0.590909</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/heliport.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_firedept9">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -937,26 +1539,114 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin7</styleUrl>
+			<styleUrl>#sh_ylw-pushpin73</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_ylw-pushpin16">
+	<StyleMap id="m_ylw-pushpin02">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_truck7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_truck152</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_truck270</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_bus6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bus0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bus3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_truck9">
 		<IconStyle>
-			<scale>0.590909</scale>
+			<scale>0.5</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
 			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 		<LabelStyle>
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_bus17">
+	<Style id="s_ylw-pushpin03">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_truck00">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_airports00">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_bus73">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bus20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bus03</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_truck301">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_firedept02">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -976,37 +1666,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="msn_shopping4">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_shopping</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_shopping4</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_track1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_track0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_track1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_bus0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_bus1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_bus24</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_truck42">
+	<Style id="sn_truck0">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -1018,75 +1678,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sh_truck14">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sn_truck005">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<StyleMap id="msn_truck20">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_truck05</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_truck28</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_truck8">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_truck00</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_truck5</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_shopping3">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sn_truck04">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sh_firedept2">
+	<Style id="sh_firedept04">
 		<IconStyle>
 			<scale>0.590909</scale>
 			<Icon>
@@ -1098,108 +1690,26 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_track0">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/track.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sn_bus11">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sn_truck9">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<StyleMap id="msn_truck003">
+	<StyleMap id="msn_track4">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_truck005</styleUrl>
+			<styleUrl>#sn_track2</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_truck30</styleUrl>
+			<styleUrl>#sh_track</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_airports">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sh_firedept1">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<StyleMap id="msn_track2">
+	<StyleMap id="msn_bus53">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_track1</styleUrl>
+			<styleUrl>#sn_bus11</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_track0</styleUrl>
+			<styleUrl>#sh_bus21</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_bus33">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_bus25</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_bus10</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_truck6">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
 	<StyleMap id="msn_bus26">
 		<Pair>
 			<key>normal</key>
@@ -1210,169 +1720,7 @@
 			<styleUrl>#sh_bus33</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_firedept0">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<StyleMap id="msn_truck12">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_truck13</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_truck81</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_bus73">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_bus2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_bus0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_track">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/track.png</href>
-			</Icon>
-			<hotSpot x="32" y="32" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sh_firedept7">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<StyleMap id="msn_firedept24">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_firedept13</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_firedept2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_truck7">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_truck15</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_truck27</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_firedept0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_firedept9</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_firedept</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_truck13">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<StyleMap id="msn_firedept">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_firedept1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_firedept0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_airports">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_airports</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_airports</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_truck26">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sh_track1">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/track.png</href>
-			</Icon>
-			<hotSpot x="32" y="32" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<StyleMap id="msn_heliport">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_heliport</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_heliport</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_police3">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_police</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_police3</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_bus1">
+	<Style id="sn_bus8">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -1384,21 +1732,11 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="msn_bus">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_bus7</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_bus2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_truck27">
+	<Style id="sn_bus24">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -1406,9 +1744,9 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_firedept26">
+	<Style id="sh_firedept29">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>0.590909</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
 			</Icon>
@@ -1418,39 +1756,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_police">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/police.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<StyleMap id="msn_truck16">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_truck28</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_truck3</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_truck73">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_truck04</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_truck06</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin9">
+	<Style id="sn_ylw-pushpin">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -1462,11 +1768,11 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sh_bus24">
+	<Style id="sh_heliport0">
 		<IconStyle>
 			<scale>0.590909</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/heliport.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -1474,6 +1780,58 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
+	<StyleMap id="msn_bus1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bus7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bus2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_truck8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_truck00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_truck54</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_bus7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bus2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bus8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_shopping01">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_truck162">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_truck64</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_truck19</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sn_firedept112">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -1498,83 +1856,27 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sh_truck1">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<StyleMap id="msn_bus7">
+	<StyleMap id="msn_shopping2">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_bus</styleUrl>
+			<styleUrl>#sn_shopping01</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_bus8</styleUrl>
+			<styleUrl>#sh_shopping3</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="s_ylw-pushpin03">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<StyleMap id="m_ylw-pushpin">
+	<StyleMap id="msn_firedept25">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
+			<styleUrl>#sn_firedept112</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+			<styleUrl>#sh_firedept02</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_bus1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_bus72</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_bus4</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_shopping0">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<StyleMap id="msn_truck162">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_truck6</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_truck19</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_track">
+	<Style id="sn_track2">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -1586,7 +1888,19 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sh_track00">
+	<Style id="sn_firedept15">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_track">
 		<IconStyle>
 			<scale>0.590909</scale>
 			<Icon>
@@ -1598,101 +1912,53 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_truck4">
+	<StyleMap id="msn_bus19">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bus17</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bus82</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_track00">
 		<IconStyle>
 			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/track.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_truck003">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_truck005</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_truck301</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_heliport0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_heliport</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_heliport0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_truck35">
+		<IconStyle>
+			<scale>0.590909</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sh_shopping4">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sh_firedept0">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<StyleMap id="msn_airports1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_airports0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_airports1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_bus3">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_bus26</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_bus54</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_truck00">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sh_bus21">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<StyleMap id="msn_truck5">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_truck2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_truck1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_bus4">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -1711,10 +1977,76 @@
 		<LabelStyle>
 			<scale>0.5</scale>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
-	<Style id="sn_firedept1">
+	<StyleMap id="msn_truck0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_truck27</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_truck8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_truck16">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_truck28</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_truck30</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_track0">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/track.png</href>
+			</Icon>
+			<hotSpot x="32" y="32" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_truck3">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_airports">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_track2">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/track.png</href>
+			</Icon>
+			<hotSpot x="32" y="32" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_firedept82">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -1726,31 +2058,7 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_bus">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sh_bus2">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl1">
+	<Style id="sh_truck30">
 		<IconStyle>
 			<scale>0.590909</scale>
 			<Icon>
@@ -1762,18 +2070,36 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sh_truck81">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
+	<StyleMap id="msn_ylw-pushpin53">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_truck04">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_truck53</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_truck110</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_track1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_track00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_track1</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sh_bus8">
 		<IconStyle>
 			<scale>0.590909</scale>
@@ -1786,7 +2112,27 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_truck05">
+	<StyleMap id="msn_truck123">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_truck13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_truck81</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_firedept7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_firedept7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_firedept0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_truck18">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -1798,142 +2144,820 @@
 			<scale>0.5</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="msn_truck13">
+	<StyleMap id="msn_truck02">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_truck26</styleUrl>
+			<styleUrl>#sn_truck16</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_truck29</styleUrl>
+			<styleUrl>#sh_truck142</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_bus7">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<StyleMap id="msn_truck04">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_truck53</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_truck110</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_bus32">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sn_bus111">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sh_bus3">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<StyleMap id="msn_truck27">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_truck42</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_truck4</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_firedept8">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sn_bus0">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
-	<StyleMap id="msn_truck4">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_truck0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_truck</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin5">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_airports0">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.5</scale>
-		</LabelStyle>
-	</Style>
 	<Folder>
 		<name>Russian forces on russian territory</name>
+		<Folder>
+			<name>Southern Military District</name>
+			<Folder>
+				<name>49 Army</name>
+				<Folder>
+					<name>99 Separate Maintenance-Supply Brigade</name>
+					<Placemark>
+						<name>474 Automobile Battalion</name>
+						<description>M/U 33027</description>
+						<LookAt>
+							<longitude>40.418208</longitude>
+							<latitude>48.923247</latitude>
+							<altitude>0</altitude>
+							<heading>-1.590277340731758e-014</heading>
+							<tilt>0</tilt>
+							<range>999.9999999977213</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_truck17</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>40.418208,48.923247,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>293 Separate Automobile Battalion</name>
+						<description>M/U 46027</description>
+						<LookAt>
+							<longitude>40.07771438257</longitude>
+							<latitude>47.40153249011411</latitude>
+							<altitude>0</altitude>
+							<heading>0.0003671109930954197</heading>
+							<tilt>0</tilt>
+							<range>433.893288568819</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_truck17</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>40.07771438257,47.40153249011411,0</coordinates>
+						</Point>
+					</Placemark>
+				</Folder>
+			</Folder>
+			<Folder>
+				<name>58 Army</name>
+				<Placemark>
+					<name>97 Separate Electronic Warfare Battalion</name>
+					<description>M/U 07352</description>
+					<LookAt>
+						<longitude>44.68476847877365</longitude>
+						<latitude>42.99364041087355</latitude>
+						<altitude>0</altitude>
+						<heading>0.0001776243041643197</heading>
+						<tilt>0</tilt>
+						<range>1000.00000000025</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_truck3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>44.68476847877364,42.99364041087354,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>4 Air Force &amp; Air Defense Army</name>
+				<Folder>
+					<name>51 Air Defense Division</name>
+					<Placemark>
+						<name>338 Regt Sep Coy</name>
+						<open>1</open>
+						<description><![CDATA[<a href="https://twitter.com/Ars_Faivre/status/872369434710683648">https://twitter.com/Ars_Faivre/status/872369434710683648</a>]]></description>
+						<LookAt>
+							<longitude>38.56612760297379</longitude>
+							<latitude>47.17298567072535</latitude>
+							<altitude>0</altitude>
+							<heading>-1.162630688817566e-005</heading>
+							<tilt>0</tilt>
+							<range>1046.634472336058</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_track4</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>38.56612760297379,47.17298567072536,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>338 Sigs Regt</name>
+						<description><![CDATA[Supports 1537 Regt in Novorossiysk<br/><br/>
+<a href="https://informnapalm.org/en/russian-air-force-and-air-defense-radio-engineering-units-arrived-to-ukraine/">https://informnapalm.org/en/russian-air-force-and-air-defense-radio-engineering-units-arrived-to-ukraine/</a>]]></description>
+						<LookAt>
+							<longitude>37.92266423772144</longitude>
+							<latitude>44.63067770331252</latitude>
+							<altitude>0</altitude>
+							<heading>-0.0002477630840362115</heading>
+							<tilt>0</tilt>
+							<range>427.8815896960458</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_track0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>37.92266423772144,44.63067770331251,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>1536 Regt</name>
+						<description><![CDATA[<a href="https://twitter.com/JesusFromMars/status/872259639445946368">https://twitter.com/JesusFromMars/status/872259639445946368</a>]]></description>
+						<LookAt>
+							<longitude>39.44586578473902</longitude>
+							<latitude>47.28933897006031</latitude>
+							<altitude>0</altitude>
+							<heading>-0.0005152564005187645</heading>
+							<tilt>0</tilt>
+							<range>1004.745852389648</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_track0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>39.44586578473902,47.28933897006031,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>(?) 1721 Regt</name>
+						<description><![CDATA[<a href="https://twitter.com/strannik_1981/status/872274033626185728">https://twitter.com/strannik_1981/status/872274033626185728</a>]]></description>
+						<LookAt>
+							<longitude>40.00465368585829</longitude>
+							<latitude>43.38876632635839</latitude>
+							<altitude>0</altitude>
+							<heading>-6.361109362927034e-015</heading>
+							<tilt>0</tilt>
+							<range>321.3120571123398</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_track0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>40.00465368585829,43.38876632635839,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>1536 Regt</name>
+						<description><![CDATA[<a href="https://twitter.com/JesusFromMars/status/872259639445946368">https://twitter.com/JesusFromMars/status/872259639445946368</a>]]></description>
+						<LookAt>
+							<longitude>39.33845478662919</longitude>
+							<latitude>46.96970748999167</latitude>
+							<altitude>0</altitude>
+							<heading>0.003441095964329414</heading>
+							<tilt>0</tilt>
+							<range>1523.508545770867</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_track0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>39.33845478662919,46.96970748999168,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>1537 Regt</name>
+						<LookAt>
+							<longitude>37.78212041073384</longitude>
+							<latitude>44.66490258574136</latitude>
+							<altitude>0</altitude>
+							<heading>0.002212634856833496</heading>
+							<tilt>0</tilt>
+							<range>1180.031956290945</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_track0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>37.78212041073384,44.66490258574137,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>1721 Regt</name>
+						<LookAt>
+							<longitude>39.63554795527174</longitude>
+							<latitude>43.66905773585619</latitude>
+							<altitude>0</altitude>
+							<heading>-0.0003128181133191998</heading>
+							<tilt>0</tilt>
+							<range>1077.994061888614</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_track0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>39.63554795527174,43.66905773585619,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>338 Sigs Regt</name>
+						<description><![CDATA[<a href="https://informnapalm.org/en/russian-air-force-and-air-defense-radio-engineering-units-arrived-to-ukraine/">https://informnapalm.org/en/russian-air-force-and-air-defense-radio-engineering-units-arrived-to-ukraine/</a>]]></description>
+						<LookAt>
+							<longitude>39.65769508092105</longitude>
+							<latitude>47.30990144151055</latitude>
+							<altitude>0</altitude>
+							<heading>-0.0002963892371101244</heading>
+							<tilt>0</tilt>
+							<range>571.0563598242668</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_track0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>39.65769508092105,47.30990144151055,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>339 Sigs Regt HQ</name>
+						<LookAt>
+							<longitude>47.96806390583447</longitude>
+							<latitude>46.41168667023216</latitude>
+							<altitude>0</altitude>
+							<heading>0.0001968745961518458</heading>
+							<tilt>0</tilt>
+							<range>673.5129725301032</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_track0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>47.96806390583446,46.41168667023216,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>339 Sigs Regt Radar Site</name>
+						<LookAt>
+							<longitude>47.91695948672735</longitude>
+							<latitude>46.40597650614767</latitude>
+							<altitude>0</altitude>
+							<heading>0.001184894209890527</heading>
+							<tilt>0</tilt>
+							<range>1167.218063659293</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_track0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>47.91695948672735,46.40597650614767,0</coordinates>
+						</Point>
+					</Placemark>
+				</Folder>
+				<Folder>
+					<name>1 Air Guards Division</name>
+					<Placemark>
+						<name>559 Regiment</name>
+						<LookAt>
+							<longitude>41.78861780900525</longitude>
+							<latitude>48.31590798876584</latitude>
+							<altitude>0</altitude>
+							<heading>-0.00190458597813107</heading>
+							<tilt>0</tilt>
+							<range>3551.21636324082</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_airports0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>41.78861780900525,48.31590798876584,0</coordinates>
+						</Point>
+					</Placemark>
+				</Folder>
+			</Folder>
+			<Placemark>
+				<name>229 Airbase</name>
+				<LookAt>
+					<longitude>39.64111509018962</longitude>
+					<latitude>47.27490551741883</latitude>
+					<altitude>0</altitude>
+					<heading>-0.592272472147068</heading>
+					<tilt>0</tilt>
+					<range>3746.765429780312</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_airports1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>39.64111509018962,47.27490551741883,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>91 Automotive Equipment Central Reserve</name>
+				<open>1</open>
+				<LookAt>
+					<longitude>40.26211934893605</longitude>
+					<latitude>48.2737856279908</latitude>
+					<altitude>0</altitude>
+					<heading>-0.09398278754345855</heading>
+					<tilt>0</tilt>
+					<range>1039.63553037891</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_truck7</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>40.26211934893605,48.27378562799079,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>46 Regiment Base</name>
+				<open>1</open>
+				<LookAt>
+					<longitude>40.12942255175655</longitude>
+					<latitude>47.56734201880089</latitude>
+					<altitude>0</altitude>
+					<heading>-0.178222868689789</heading>
+					<tilt>0</tilt>
+					<range>1968.658784484084</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_truck7</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>40.12942255175655,47.56734201880088,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>46 Regiment Base</name>
+				<open>1</open>
+				<LookAt>
+					<longitude>40.12942255175655</longitude>
+					<latitude>47.56734201880089</latitude>
+					<altitude>0</altitude>
+					<heading>-0.178222868689789</heading>
+					<tilt>0</tilt>
+					<range>1968.658784484084</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_truck7</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>40.12942255175655,47.56734201880088,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>22 Sep Guards Spetsnaz Bde</name>
+				<description><![CDATA[M/U 11659 (but see <a href="http://spec-naz.org/dossier/GRU_special_forces/gv_obrspn_gru_v_ch/">http://spec-naz.org/dossier/GRU_special_forces/gv_obrspn_gru_v_ch/</a>)<br/><br/>
+
+116 Separate Spetsnaz Radio Node, M/U 51019<br/>
+362 South Military District Int/Recce Command Center, M/U 47187]]></description>
+				<LookAt>
+					<longitude>39.87989758532907</longitude>
+					<latitude>47.34513877370104</latitude>
+					<altitude>0</altitude>
+					<heading>0.04142405620200584</heading>
+					<tilt>0</tilt>
+					<range>779.0505125807554</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_truck17</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>39.87989758532907,47.34513877370104,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>335 Storage and Maintenance Depot</name>
+				<open>1</open>
+				<LookAt>
+					<longitude>40.25239814944049</longitude>
+					<latitude>48.28012914004372</latitude>
+					<altitude>0</altitude>
+					<heading>-0.1012369718397998</heading>
+					<tilt>0</tilt>
+					<range>724.7740273593629</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_truck7</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>40.25239814944049,48.28012914004371,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>176 Sep Sigs Bde (Territorial)</name>
+				<LookAt>
+					<longitude>39.87165020266973</longitude>
+					<latitude>47.34726186098695</latitude>
+					<altitude>0</altitude>
+					<heading>0.03535848569528797</heading>
+					<tilt>0</tilt>
+					<range>779.0505125798227</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_truck</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>39.87165020266973,47.34726186098696,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>205 MR Bde</name>
+				<LookAt>
+					<longitude>44.19901513326285</longitude>
+					<latitude>44.81294381110632</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0003330871628961191</heading>
+					<tilt>0</tilt>
+					<range>1552.967498267727</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_truck12</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>44.19901513326285,44.81294381110633,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>175 Sigs Bde</name>
+				<LookAt>
+					<longitude>39.89519800000001</longitude>
+					<latitude>47.27429399999999</latitude>
+					<altitude>0</altitude>
+					<heading>-1.908332808878109e-014</heading>
+					<tilt>0</tilt>
+					<range>999.9999999990773</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_truck</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>39.89519800000001,47.274294,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>439 Guards Rocket Artillery Brigade</name>
+				<description>M/U 48315</description>
+				<LookAt>
+					<longitude>45.73395929799874</longitude>
+					<latitude>48.58775198712591</latitude>
+					<altitude>0</altitude>
+					<heading>0.0006918079736662263</heading>
+					<tilt>0</tilt>
+					<range>1006.156263005698</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_truck15</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>45.73395929799873,48.5877519871259,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>11 Separate Guards Engineering Brigade</name>
+				<description>M/U 45767</description>
+				<LookAt>
+					<longitude>40.26834700000001</longitude>
+					<latitude>48.31090099999999</latitude>
+					<altitude>0</altitude>
+					<heading>-0</heading>
+					<tilt>0</tilt>
+					<range>1000.000000001877</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_truck15</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>40.26834700000001,48.310901,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>28 Separate NBC Defense Brigade</name>
+				<description>M/U 65363</description>
+				<LookAt>
+					<longitude>45.43236968450956</longitude>
+					<latitude>50.09982672952394</latitude>
+					<altitude>0</altitude>
+					<heading>-4.308212701540022e-005</heading>
+					<tilt>0</tilt>
+					<range>465.3343320916529</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_truck15</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>45.43236968450956,50.09982672952394,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>56 Separate Guards Airborne Assault Brigade</name>
+				<description>M/U 74507</description>
+				<LookAt>
+					<longitude>45.4375267658304</longitude>
+					<latitude>50.10040896720844</latitude>
+					<altitude>0</altitude>
+					<heading>0.003911465073295217</heading>
+					<tilt>0</tilt>
+					<range>701.0010841298627</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_truck15</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>45.4375267658304,50.10040896720844,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>56 Separate Guards Airborne Assault Brigade</name>
+				<LookAt>
+					<longitude>45.40387264701604</longitude>
+					<latitude>50.06799567177056</latitude>
+					<altitude>0</altitude>
+					<heading>-0.01388886185075227</heading>
+					<tilt>0</tilt>
+					<range>775.5660239189174</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_truck15</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>45.40387264701603,50.06799567177056,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>19 Separate Electronic Warfare Brigade</name>
+				<LookAt>
+					<longitude>39.78458405360322</longitude>
+					<latitude>47.35435858852529</latitude>
+					<altitude>0</altitude>
+					<heading>-0.01761161139401548</heading>
+					<tilt>0</tilt>
+					<range>787.8002217444191</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_truck15</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>39.78458405360323,47.35435858852529,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>408 Regional Joint Signals Training Center</name>
+				<description>M/U 74330</description>
+				<LookAt>
+					<longitude>39.72192149041987</longitude>
+					<latitude>47.23065431334942</latitude>
+					<altitude>0</altitude>
+					<heading>-0.000190597898802365</heading>
+					<tilt>0</tilt>
+					<range>659.9652338613493</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_truck3</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>39.72192149041988,47.23065431334941,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>176 Separate Signals Brigade 424 Separate Signals Battalion</name>
+				<description>M/U 71609</description>
+				<LookAt>
+					<longitude>40.0976185397894</longitude>
+					<latitude>47.44504650937731</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0001413874097858414</heading>
+					<tilt>0</tilt>
+					<range>350.3959063413928</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_truck17</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>40.0976185397894,47.4450465093773,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>148 Separate Signals Battalion</name>
+				<description>M/U 64555</description>
+				<LookAt>
+					<longitude>40.31934301343947</longitude>
+					<latitude>46.8390384972604</latitude>
+					<altitude>0</altitude>
+					<heading>-0.2247954836053216</heading>
+					<tilt>0</tilt>
+					<range>105.8518924289082</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_truck17</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>40.31934301343947,46.8390384972604,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Placemark>
+			<name>721 Main Rocket Artillery Directorate Training Center</name>
+			<open>1</open>
+			<description>M/U 42710</description>
+			<LookAt>
+				<longitude>40.10631000000002</longitude>
+				<latitude>47.41418599999998</latitude>
+				<altitude>0</altitude>
+				<heading>6.361109362927033e-015</heading>
+				<tilt>0</tilt>
+				<range>1000.000000000575</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_truck3</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>40.10631000000002,47.41418599999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Vehicles</name>
+			<open>1</open>
+			<LookAt>
+				<gx:TimeStamp><when>2014-08-02</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>38.92612346688805</longitude>
+				<latitude>47.82828202092451</latitude>
+				<altitude>0</altitude>
+				<heading>1.262324986802071</heading>
+				<tilt>0</tilt>
+				<range>268.1147649032905</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>38.92612346688805,47.82828202092452,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MLRS Firing Positions</name>
+			<open>1</open>
+			<LookAt>
+				<gx:TimeStamp><when>2014-08-02</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>38.93468002792756</longitude>
+				<latitude>47.83269213887138</latitude>
+				<altitude>0</altitude>
+				<heading>1.272068288655191</heading>
+				<tilt>0</tilt>
+				<range>498.0011003776963</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_firedept7</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>38.93468002792756,47.83269213887137,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MLRS Firing Positions</name>
+			<open>1</open>
+			<LookAt>
+				<gx:TimeStamp><when>2014-08-04</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>38.92925310123483</longitude>
+				<latitude>47.83568623485027</latitude>
+				<altitude>0</altitude>
+				<heading>1.270161748150016</heading>
+				<tilt>0</tilt>
+				<range>602.7529588239848</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_firedept7</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>38.92925310123483,47.83568623485027,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MLRS Firing Positions</name>
+			<open>1</open>
+			<LookAt>
+				<gx:TimeStamp><when>2014-08-16</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>38.92818014915083</longitude>
+				<latitude>47.83815793911354</latitude>
+				<altitude>0</altitude>
+				<heading>1.269366413610167</heading>
+				<tilt>0</tilt>
+				<range>602.7529588207531</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_firedept7</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>38.92818014915081,47.83815793911354,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MLRS Firing Positions</name>
+			<open>1</open>
+			<LookAt>
+				<gx:TimeStamp><when>2014-08-16</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>38.93896666908812</longitude>
+				<latitude>47.8373614417748</latitude>
+				<altitude>0</altitude>
+				<heading>1.277361815390976</heading>
+				<tilt>0</tilt>
+				<range>602.7529588226629</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_firedept7</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>38.93919041368383,47.8373157554547,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MLRS Firing Positions</name>
+			<open>1</open>
+			<LookAt>
+				<gx:TimeStamp><when>2014-08-16</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>38.92562459769166</longitude>
+				<latitude>47.84235443085608</latitude>
+				<altitude>0</altitude>
+				<heading>1.267471993416754</heading>
+				<tilt>0</tilt>
+				<range>602.7529588225582</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_firedept7</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>38.92562459769166,47.84235443085609,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MLRS Firing Positions</name>
+			<open>1</open>
+			<LookAt>
+				<gx:TimeStamp><when>2014-08-16</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>38.92588506728775</longitude>
+				<latitude>47.84783585093752</latitude>
+				<altitude>0</altitude>
+				<heading>1.267664998588803</heading>
+				<tilt>0</tilt>
+				<range>602.7529588222772</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_firedept7</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>38.92588506728775,47.84783585093752,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MChS Base</name>
+			<LookAt>
+				<longitude>39.83665538202181</longitude>
+				<latitude>47.33893370421288</latitude>
+				<altitude>0</altitude>
+				<heading>0.004022997330781939</heading>
+				<tilt>0</tilt>
+				<range>514.4894153363412</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_truck</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>39.83665538202182,47.33893370421288,0</coordinates>
+			</Point>
+		</Placemark>
 		<Placemark>
 			<name>Vehicles</name>
 			<LookAt>
@@ -1976,7 +3000,7 @@
 				<range>802.1337783656393</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin02</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>40.09498739377943,48.31836070135438,0</coordinates>
@@ -2048,7 +3072,7 @@
 				<range>592.4912764564867</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_truck4</styleUrl>
+			<styleUrl>#msn_truck47</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>40.06967527978956,48.32869259563488,0</coordinates>
@@ -2072,7 +3096,7 @@
 				<range>922.5964425641472</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_truck4</styleUrl>
+			<styleUrl>#msn_truck47</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>40.04626538095143,48.34037487625288,0</coordinates>
@@ -2155,7 +3179,7 @@
 				<range>366.479647247385</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<styleUrl>#m_ylw-pushpin25</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>38.36898114807738,47.60911547908778,0</coordinates>
@@ -2379,7 +3403,7 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 				<range>636.8355450886268</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_truck12</styleUrl>
+			<styleUrl>#msn_truck123</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>39.75406545078228,48.63374970219299,0</coordinates>
@@ -2540,74 +3564,6 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>335 Storage and Maintenance Depot</name>
-			<LookAt>
-				<longitude>40.25239814944049</longitude>
-				<latitude>48.28012914004372</latitude>
-				<altitude>0</altitude>
-				<heading>-0.1012369718397998</heading>
-				<tilt>0</tilt>
-				<range>724.7740273593629</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_truck7</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>40.25239814944049,48.28012914004371,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>91 Automotive Equipment Central Reserve</name>
-			<LookAt>
-				<longitude>40.26211934893605</longitude>
-				<latitude>48.2737856279908</latitude>
-				<altitude>0</altitude>
-				<heading>-0.09398278754345855</heading>
-				<tilt>0</tilt>
-				<range>1039.63553037891</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_truck7</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>40.26211934893605,48.27378562799079,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>46 Regiment Base</name>
-			<LookAt>
-				<longitude>40.12942255175655</longitude>
-				<latitude>47.56734201880089</latitude>
-				<altitude>0</altitude>
-				<heading>-0.178222868689789</heading>
-				<tilt>0</tilt>
-				<range>1968.658784484084</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_truck7</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>40.12942255175655,47.56734201880088,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>229 Airbase</name>
-			<LookAt>
-				<longitude>39.64111509018962</longitude>
-				<latitude>47.27490551741883</latitude>
-				<altitude>0</altitude>
-				<heading>-0.592272472147068</heading>
-				<tilt>0</tilt>
-				<range>3746.765429780312</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_airports1</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>39.64111509018962,47.27490551741883,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
 			<name>Airfield</name>
 			<LookAt>
 				<longitude>39.79397710298071</longitude>
@@ -2659,77 +3615,6 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>4 AF &amp; AD Army 51 AD Div 1536 Regt</name>
-			<description><![CDATA[<a href="https://twitter.com/JesusFromMars/status/872259639445946368">https://twitter.com/JesusFromMars/status/872259639445946368</a>]]></description>
-			<LookAt>
-				<longitude>39.44586578473902</longitude>
-				<latitude>47.28933897006031</latitude>
-				<altitude>0</altitude>
-				<heading>-0.0005152564005187645</heading>
-				<tilt>0</tilt>
-				<range>1004.745852389648</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_track0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>39.44586578473902,47.28933897006031,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>4 AF &amp; AD Army 51 AD Div 1536 Regt</name>
-			<description><![CDATA[<a href="https://twitter.com/JesusFromMars/status/872259639445946368">https://twitter.com/JesusFromMars/status/872259639445946368</a>]]></description>
-			<LookAt>
-				<longitude>39.33845478662919</longitude>
-				<latitude>46.96970748999167</latitude>
-				<altitude>0</altitude>
-				<heading>0.003441095964329414</heading>
-				<tilt>0</tilt>
-				<range>1523.508545770867</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_track0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>39.33845478662919,46.96970748999168,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>4 AF &amp; AD Army 51 AD Div 1537 Regt</name>
-			<LookAt>
-				<longitude>37.78212041073384</longitude>
-				<latitude>44.66490258574136</latitude>
-				<altitude>0</altitude>
-				<heading>0.002212634856833496</heading>
-				<tilt>0</tilt>
-				<range>1180.031956290945</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_track0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>37.78212041073384,44.66490258574137,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>(?) 4 AF &amp; AD Army 51 AD Div 1721 Regt</name>
-			<description><![CDATA[<a href="https://twitter.com/strannik_1981/status/872274033626185728">https://twitter.com/strannik_1981/status/872274033626185728</a>]]></description>
-			<LookAt>
-				<longitude>40.00465368585829</longitude>
-				<latitude>43.38876632635839</latitude>
-				<altitude>0</altitude>
-				<heading>-6.361109362927034e-015</heading>
-				<tilt>0</tilt>
-				<range>321.3120571123398</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_track0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>40.00465368585829,43.38876632635839,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
 			<name>Mil Unit 03110, FSB(?), SIGINT(?)</name>
 			<description><![CDATA[<a href="https://twitter.com/strannik_1981/status/872278967969083392">https://twitter.com/strannik_1981/status/872278967969083392</a>]]></description>
 			<LookAt>
@@ -2745,94 +3630,6 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>40.00299741060612,43.3921918256856,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>4 AF &amp; AD Army 51 AD Div 1721 Regt</name>
-			<LookAt>
-				<longitude>39.63554795527174</longitude>
-				<latitude>43.66905773585619</latitude>
-				<altitude>0</altitude>
-				<heading>-0.0003128181133191998</heading>
-				<tilt>0</tilt>
-				<range>1077.994061888614</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_track</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>39.63554795527174,43.66905773585619,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>4 AF &amp; AD Army 51 AD Div 338 Sigs Regt</name>
-			<description><![CDATA[<a href="https://informnapalm.org/en/russian-air-force-and-air-defense-radio-engineering-units-arrived-to-ukraine/">https://informnapalm.org/en/russian-air-force-and-air-defense-radio-engineering-units-arrived-to-ukraine/</a>]]></description>
-			<LookAt>
-				<longitude>39.65769508092105</longitude>
-				<latitude>47.30990144151055</latitude>
-				<altitude>0</altitude>
-				<heading>-0.0002963892371101244</heading>
-				<tilt>0</tilt>
-				<range>571.0563598242668</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_track</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>39.65769508092105,47.30990144151055,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>4 AF &amp; AD Army 51 AD Div 338 Sigs Regt</name>
-			<description><![CDATA[Supports 1537 Regt in Novorossiysk<br/><br/>
-<a href="https://informnapalm.org/en/russian-air-force-and-air-defense-radio-engineering-units-arrived-to-ukraine/">https://informnapalm.org/en/russian-air-force-and-air-defense-radio-engineering-units-arrived-to-ukraine/</a>]]></description>
-			<LookAt>
-				<longitude>37.92266423772144</longitude>
-				<latitude>44.63067770331252</latitude>
-				<altitude>0</altitude>
-				<heading>-0.0002477630840362115</heading>
-				<tilt>0</tilt>
-				<range>427.8815896960458</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_track</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>37.92266423772144,44.63067770331251,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>4 AF &amp; AD Army 51 AD Div 339 Sigs Regt HQ</name>
-			<LookAt>
-				<longitude>47.96806390583447</longitude>
-				<latitude>46.41168667023216</latitude>
-				<altitude>0</altitude>
-				<heading>0.0001968745961518458</heading>
-				<tilt>0</tilt>
-				<range>673.5129725301032</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_track</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>47.96806390583446,46.41168667023216,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>4 AF &amp; AD Army 51 AD Div 339 Sigs Regt Radar Site</name>
-			<LookAt>
-				<longitude>47.91695948672735</longitude>
-				<latitude>46.40597650614767</latitude>
-				<altitude>0</altitude>
-				<heading>0.001184894209890527</heading>
-				<tilt>0</tilt>
-				<range>1167.218063659293</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_track</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>47.91695948672735,46.40597650614767,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
@@ -2880,7 +3677,7 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 				<range>2302.172798389645</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_truck20</styleUrl>
+			<styleUrl>#msn_truck22</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>20.17378388645703,54.75908989880155,0</coordinates>
@@ -2901,23 +3698,6 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>19.9760216160816,54.75207531834888,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>205 MR Bde</name>
-			<LookAt>
-				<longitude>44.19901513326285</longitude>
-				<latitude>44.81294381110632</latitude>
-				<altitude>0</altitude>
-				<heading>-0.0003330871628961191</heading>
-				<tilt>0</tilt>
-				<range>1552.967498267727</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_truck1</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>44.19901513326285,44.81294381110633,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
@@ -3586,7 +4366,7 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 				<range>421.8942805712347</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_firedept0</styleUrl>
+			<styleUrl>#msn_firedept02</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>38.64827256071563,47.65226908006231,0</coordinates>
@@ -3610,7 +4390,7 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 				<range>289.8560806633383</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_firedept0</styleUrl>
+			<styleUrl>#msn_firedept02</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>38.63489349316775,47.64572158759216,0</coordinates>
@@ -3634,7 +4414,7 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 				<range>229.4856493539453</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<styleUrl>#msn_ylw-pushpin11</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>38.65984369924018,47.65322361452744,0</coordinates>
@@ -3802,7 +4582,7 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 				<range>228.5421812712644</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_bus0</styleUrl>
+			<styleUrl>#msn_bus01</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>38.83614283049997,47.70401821176621,0</coordinates>
@@ -3826,7 +4606,7 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 				<range>221.5087937411739</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_bus0</styleUrl>
+			<styleUrl>#msn_bus01</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>38.82888222919941,47.69312096460844,0</coordinates>
@@ -3850,7 +4630,7 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 				<range>223.5418640182118</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_bus0</styleUrl>
+			<styleUrl>#msn_bus01</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>39.05155336815823,47.7972122919463,0</coordinates>
@@ -3874,7 +4654,7 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 				<range>261.9448101194179</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_bus0</styleUrl>
+			<styleUrl>#msn_bus01</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>39.05978454889468,47.79927381334452,0</coordinates>
@@ -3898,7 +4678,7 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 				<range>250.3413510483687</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_bus0</styleUrl>
+			<styleUrl>#msn_bus01</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>39.84701125000073,47.99286715025215,0</coordinates>
@@ -3922,7 +4702,7 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 				<range>250.3413510500059</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_bus0</styleUrl>
+			<styleUrl>#msn_bus01</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>39.8482063883153,47.99040984087515,0</coordinates>
@@ -3946,7 +4726,7 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 				<range>250.3413510483674</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_bus0</styleUrl>
+			<styleUrl>#msn_bus01</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>39.8494839656746,47.98792883878686,0</coordinates>
@@ -3971,7 +4751,7 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 				<range>308.3541023290081</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_bus0</styleUrl>
+			<styleUrl>#msn_bus01</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>38.84281392440648,47.8496848875167,0</coordinates>
@@ -4067,7 +4847,7 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 				<range>480.2607899903952</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_truck</styleUrl>
+			<styleUrl>#msn_truck4</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>39.8829159363796,48.6378372662374,0</coordinates>
@@ -4091,7 +4871,7 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 				<range>889.2913922966924</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_truck</styleUrl>
+			<styleUrl>#msn_truck4</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>39.90792886744359,48.63209988501412,0</coordinates>
@@ -4115,7 +4895,7 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 				<range>401.7265804662719</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_truck</styleUrl>
+			<styleUrl>#msn_truck4</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>39.9169097879528,48.62860109446231,0</coordinates>
@@ -4139,7 +4919,7 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 				<range>339.8492669740126</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_bus1</styleUrl>
+			<styleUrl>#msn_bus16</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>39.93385665228119,48.61205571755372,0</coordinates>
@@ -4212,7 +4992,7 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 				<range>1501.890662487225</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_truck4</styleUrl>
+			<styleUrl>#msn_truck47</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>40.09578893530701,48.29083561843237,0</coordinates>
@@ -4236,7 +5016,7 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 				<range>819.335550885069</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_truck4</styleUrl>
+			<styleUrl>#msn_truck47</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>40.07730271922165,48.29158715882572,0</coordinates>
@@ -4260,7 +5040,7 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 				<range>434.819585263234</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_bus</styleUrl>
+			<styleUrl>#msn_bus1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>40.09391555443847,48.29383983969125,0</coordinates>
@@ -4284,7 +5064,7 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 				<range>407.4407102877307</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_bus</styleUrl>
+			<styleUrl>#msn_bus1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>40.08749382808735,48.291315193418,0</coordinates>
@@ -4308,7 +5088,7 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 				<range>401.9791561563561</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_bus</styleUrl>
+			<styleUrl>#msn_bus1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>40.06914002812133,48.30915955728596,0</coordinates>
@@ -4332,7 +5112,7 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 				<range>440.4301375863986</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_bus</styleUrl>
+			<styleUrl>#msn_bus1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>40.12612554411655,48.28856673037075,0</coordinates>
@@ -4452,7 +5232,7 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 				<range>420.5664833897997</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_firedept</styleUrl>
+			<styleUrl>#msn_firedept8</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>39.91962484460287,47.94635631024935,0</coordinates>
@@ -4476,7 +5256,7 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 				<range>357.5697693996613</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_firedept</styleUrl>
+			<styleUrl>#msn_firedept8</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>38.98326135129216,47.81016875149663,0</coordinates>
@@ -4500,7 +5280,7 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 				<range>330.9279674967027</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_firedept</styleUrl>
+			<styleUrl>#msn_firedept8</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>38.9563685302084,47.81078459827167,0</coordinates>
@@ -4524,7 +5304,7 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 				<range>373.1471812424543</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<styleUrl>#msn_ylw-pushpin53</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>38.39340190948317,47.6161969125141,0</coordinates>
@@ -4548,7 +5328,7 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 				<range>422.7611012592491</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<styleUrl>#msn_ylw-pushpin53</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>38.2404574425934,47.16551045978637,0</coordinates>
@@ -4572,10 +5352,82 @@ Likely a counterbattery unit in support of northern SPGs.]]></description>
 				<range>749.2270864393271</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_truck2</styleUrl>
+			<styleUrl>#msn_truck92</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>38.89772115215504,47.55993928209712,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>432 GRU Complex Technical Control Node</name>
+			<description>M/U 09920</description>
+			<LookAt>
+				<longitude>37.78644781357942</longitude>
+				<latitude>44.73494813358191</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0001294354222722762</heading>
+				<tilt>0</tilt>
+				<range>251.8867567478212</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_truck3</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>37.78643280167989,44.73477750276355,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>834 Air Forces Training Center</name>
+			<description>M/U 20926</description>
+			<LookAt>
+				<longitude>39.7147494968804</longitude>
+				<latitude>47.25052850139003</latitude>
+				<altitude>0</altitude>
+				<heading>0.0004785622404800615</heading>
+				<tilt>0</tilt>
+				<range>439.9392619259536</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_truck17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>39.7147494968804,47.25052850139002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>834 Air Forces Training Center</name>
+			<description>M/U 20926</description>
+			<LookAt>
+				<longitude>40.31882647249207</longitude>
+				<latitude>46.83967473566999</latitude>
+				<altitude>0</altitude>
+				<heading>0.0003082217913414497</heading>
+				<tilt>0</tilt>
+				<range>332.8020911522895</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_truck17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>40.31882647249206,46.83967473566998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>744 Artillery Ammunition Depot</name>
+			<description>M/U 42286</description>
+			<LookAt>
+				<longitude>40.06983928173573</longitude>
+				<latitude>47.41009806056349</latitude>
+				<altitude>0</altitude>
+				<heading>-0.002190990253535896</heading>
+				<tilt>0</tilt>
+				<range>537.2401562193237</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_truck17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>40.06983928173572,47.41009806056348,0</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
